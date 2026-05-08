@@ -1,10 +1,89 @@
 import { motion, AnimatePresence } from 'motion/react'
-import { useEffect, useState } from 'react'
-import type { View, RegionId } from '../types'
+import { useEffect, useMemo, useState } from 'react'
+import type { View, RegionId, Municipio } from '../types'
 import { REGIONS, REGION_ORDER } from '../data/regions'
 import { STATES_BY_SIGLA, STATES_GEO } from '../data/states'
 import { MUNICIPIOS_BY_UF, MUNICIPIOS_BY_ID } from '../data/municipios'
-import { fetchMunicipioInfo, type MunicipioInfo } from '../data/ibge'
+import {
+  fetchMunicipioInfo,
+  fetchStateStats,
+  type MunicipioInfo,
+  type MunicipioStats,
+} from '../data/ibge'
+import { getIDHM } from '../data/idhm'
+
+type StatsMap = Map<number, MunicipioStats>
+
+function useStateStats(ufId: number | null): {
+  stats: StatsMap | null
+  loading: boolean
+} {
+  const [stats, setStats] = useState<StatsMap | null>(null)
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    if (ufId == null) {
+      setStats(null)
+      return
+    }
+    let alive = true
+    setStats(null)
+    setLoading(true)
+    fetchStateStats(ufId)
+      .then((m) => {
+        if (alive) setStats(m)
+      })
+      .catch(() => {
+        if (alive) setStats(new Map())
+      })
+      .finally(() => {
+        if (alive) setLoading(false)
+      })
+    return () => {
+      alive = false
+    }
+  }, [ufId])
+  return { stats, loading }
+}
+
+type SortKey = 'nome' | 'populacao' | 'pibPerCapita' | 'idhm'
+
+function fmtPop(n?: number): string {
+  if (n == null) return '—'
+  return n.toLocaleString('pt-BR')
+}
+
+function fmtR$(n?: number): string {
+  if (n == null) return '—'
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace('.', ',') + ' mi'
+  if (n >= 1000) return Math.round(n / 1000).toLocaleString('pt-BR') + ' mil'
+  return n.toLocaleString('pt-BR', { maximumFractionDigits: 0 })
+}
+
+function fmtPibTotal(milReais?: number): string {
+  // value comes in "Mil Reais" (R$ × 10³)
+  if (milReais == null) return '—'
+  const reais = milReais * 1000
+  if (reais >= 1e9) return 'R$ ' + (reais / 1e9).toFixed(1).replace('.', ',') + ' bi'
+  if (reais >= 1e6) return 'R$ ' + (reais / 1e6).toFixed(1).replace('.', ',') + ' mi'
+  if (reais >= 1e3) return 'R$ ' + Math.round(reais / 1e3).toLocaleString('pt-BR') + ' mil'
+  return 'R$ ' + Math.round(reais).toLocaleString('pt-BR')
+}
+
+function fmtIDHM(n?: number): string {
+  if (n == null) return '—'
+  return n.toFixed(3).replace('.', ',')
+}
+
+function fmtArea(km2?: number): string {
+  if (km2 == null) return '—'
+  if (km2 >= 1000) return Math.round(km2).toLocaleString('pt-BR')
+  return km2.toLocaleString('pt-BR', { maximumFractionDigits: 1 })
+}
+
+function fmtDens(d?: number): string {
+  if (d == null) return '—'
+  return d.toLocaleString('pt-BR', { maximumFractionDigits: 1 })
+}
 
 interface SidePanelProps {
   view: View
@@ -198,17 +277,58 @@ function EstadoPanel({
   collapsed,
 }: SidePanelProps & { uf: string; collapsed?: boolean }) {
   const f = STATES_BY_SIGLA[uf]
-  if (!f) return null
-  const p = f.properties
   const muns = MUNICIPIOS_BY_UF[uf] ?? []
-  const r = REGIONS[p.regiao]
+  const p = f?.properties
+  const r = p ? REGIONS[p.regiao] : null
 
   const [query, setQuery] = useState('')
-  const filtered = query
-    ? muns.filter((m) =>
-        m.nome.toLowerCase().includes(query.toLowerCase())
-      )
-    : muns
+  const [sortKey, setSortKey] = useState<SortKey>('populacao')
+  const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc')
+
+  const { stats, loading } = useStateStats(p?.id ?? null)
+
+  const rows = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    const filtered = q
+      ? muns.filter((m) => m.nome.toLowerCase().includes(q))
+      : muns
+    const decorated = filtered.map((m) => ({
+      m,
+      stats: stats?.get(m.id),
+      idhm: getIDHM(m.id),
+    }))
+    const sorter = (a: (typeof decorated)[number], b: (typeof decorated)[number]) => {
+      let v: number
+      switch (sortKey) {
+        case 'nome':
+          return sortDir === 'asc'
+            ? a.m.nome.localeCompare(b.m.nome, 'pt-BR')
+            : b.m.nome.localeCompare(a.m.nome, 'pt-BR')
+        case 'populacao':
+          v = (b.stats?.populacao ?? -1) - (a.stats?.populacao ?? -1)
+          break
+        case 'pibPerCapita':
+          v = (b.stats?.pibPerCapita ?? -1) - (a.stats?.pibPerCapita ?? -1)
+          break
+        case 'idhm':
+          v = (b.idhm ?? -1) - (a.idhm ?? -1)
+          break
+      }
+      return sortDir === 'desc' ? v : -v
+    }
+    decorated.sort(sorter)
+    return decorated
+  }, [query, sortKey, sortDir, stats, muns])
+
+  if (!f || !p || !r) return null
+
+  function toggle(key: SortKey) {
+    if (key === sortKey) setSortDir(sortDir === 'asc' ? 'desc' : 'asc')
+    else {
+      setSortKey(key)
+      setSortDir(key === 'nome' ? 'asc' : 'desc')
+    }
+  }
 
   if (collapsed) {
     return (
@@ -226,33 +346,16 @@ function EstadoPanel({
         >
           {p.nome}
         </h3>
-        <div className="overflow-auto max-h-[24vh] -mx-1 px-1 mt-3">
-          <ul className="grid grid-cols-1 gap-px">
-            {muns.slice(0, 80).map((m) => {
-              const active = hoveredMun === m.id
-              return (
-                <li key={m.id}>
-                  <button
-                    type="button"
-                    onClick={() => onSelectMun(m.id)}
-                    className={
-                      'w-full text-left flex items-baseline justify-between gap-3 px-2 py-0.5 transition-colors text-ink-70 hover:bg-paper hover:text-ink ' +
-                      (active ? 'bg-paper text-ink' : '')
-                    }
-                  >
-                    <span
-                      className="font-display text-base leading-tight"
-                      style={{ fontVariationSettings: '"opsz" 18' }}
-                    >
-                      {m.nome}
-                    </span>
-                    <span className="num text-[9px] text-ink-30">{m.id}</span>
-                  </button>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
+        <CityTable
+          rows={rows.slice(0, 80)}
+          loading={loading}
+          hoveredMun={hoveredMun}
+          onSelectMun={onSelectMun}
+          sortKey={sortKey}
+          sortDir={sortDir}
+          onToggleSort={toggle}
+          maxHeight="24vh"
+        />
       </div>
     )
   }
@@ -274,12 +377,13 @@ function EstadoPanel({
         >
           {p.nome}
         </h2>
-        <div className="num text-[11px] mt-2 text-ink-50 flex gap-4">
+        <div className="num text-[11px] mt-2 text-ink-50 flex gap-4 flex-wrap">
           <span>
             <span className="text-ink">{muns.length.toLocaleString('pt-BR')}</span>{' '}
             municípios
           </span>
           <span>código IBGE {p.id}</span>
+          {loading && <span className="text-terra">· carregando dados</span>}
         </div>
       </div>
 
@@ -301,9 +405,92 @@ function EstadoPanel({
         />
       </div>
 
-      <div className="overflow-auto max-h-[44vh] -mx-1 px-1">
-        <ul className="space-y-px">
-          {filtered.slice(0, 240).map((m) => {
+      <CityTable
+        rows={rows.slice(0, 320)}
+        loading={loading}
+        hoveredMun={hoveredMun}
+        onSelectMun={onSelectMun}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onToggleSort={toggle}
+        showFooter={
+          rows.length > 320
+            ? `+ ${(rows.length - 320).toLocaleString('pt-BR')} mais — refine a busca`
+            : undefined
+        }
+        maxHeight="56vh"
+      />
+    </>
+  )
+}
+
+interface CityRow {
+  m: Municipio
+  stats: MunicipioStats | undefined
+  idhm: number | undefined
+}
+
+interface CityTableProps {
+  rows: CityRow[]
+  loading: boolean
+  hoveredMun: number | null
+  onSelectMun: (id: number) => void
+  sortKey: SortKey
+  sortDir: 'asc' | 'desc'
+  onToggleSort: (key: SortKey) => void
+  maxHeight: string
+  showFooter?: string
+}
+
+function CityTable({
+  rows,
+  loading,
+  hoveredMun,
+  onSelectMun,
+  sortKey,
+  sortDir,
+  onToggleSort,
+  maxHeight,
+  showFooter,
+}: CityTableProps) {
+  return (
+    <div>
+      <div
+        className="num text-[9px] tracking-[0.18em] uppercase text-ink-50 grid items-end gap-2 px-2 pb-1 border-b border-ink-15"
+        style={{ gridTemplateColumns: '1fr 64px 64px 48px' }}
+      >
+        <SortHead
+          label="município"
+          active={sortKey === 'nome'}
+          dir={sortDir}
+          onClick={() => onToggleSort('nome')}
+          align="left"
+        />
+        <SortHead
+          label="pop."
+          active={sortKey === 'populacao'}
+          dir={sortDir}
+          onClick={() => onToggleSort('populacao')}
+          align="right"
+        />
+        <SortHead
+          label="pib/cap"
+          active={sortKey === 'pibPerCapita'}
+          dir={sortDir}
+          onClick={() => onToggleSort('pibPerCapita')}
+          align="right"
+        />
+        <SortHead
+          label="idhm"
+          active={sortKey === 'idhm'}
+          dir={sortDir}
+          onClick={() => onToggleSort('idhm')}
+          align="right"
+        />
+      </div>
+      <div className="overflow-auto -mx-1 px-1" style={{ maxHeight }}>
+        <ul className="divide-y divide-ink-15/50">
+          {rows.map(({ m, stats, idhm }) => {
             const active = hoveredMun === m.id
             return (
               <li key={m.id}>
@@ -311,34 +498,103 @@ function EstadoPanel({
                   type="button"
                   onClick={() => onSelectMun(m.id)}
                   className={
-                    'w-full text-left flex items-baseline justify-between gap-3 px-2 py-1 transition-colors ' +
-                    (active ? 'bg-paper text-ink' : 'text-ink-70 hover:bg-paper hover:text-ink')
+                    'w-full text-left grid items-baseline gap-2 px-2 py-1.5 transition-colors ' +
+                    (active
+                      ? 'bg-paper text-ink'
+                      : 'text-ink-70 hover:bg-paper hover:text-ink')
                   }
+                  style={{ gridTemplateColumns: '1fr 64px 64px 48px' }}
                 >
-                  <span className="font-display text-lg leading-tight" style={{ fontVariationSettings: '"opsz" 18' }}>
+                  <span
+                    className="font-display text-base leading-tight truncate"
+                    style={{ fontVariationSettings: '"opsz" 18' }}
+                    title={m.nome}
+                  >
                     {m.nome}
                   </span>
-                  <span className="num text-[10px] text-ink-30 tabular-nums">
-                    {m.id}
+                  <span className="num text-[11px] text-right tabular-nums">
+                    {fmtPop(stats?.populacao)}
+                  </span>
+                  <span className="num text-[11px] text-right tabular-nums">
+                    {fmtR$(stats?.pibPerCapita)}
+                  </span>
+                  <span
+                    className={
+                      'num text-[11px] text-right tabular-nums ' +
+                      (idhm == null
+                        ? 'text-ink-30'
+                        : idhm >= 0.8
+                          ? 'text-verde'
+                          : idhm >= 0.7
+                            ? 'text-ink'
+                            : idhm >= 0.6
+                              ? 'text-ocre-deep'
+                              : 'text-terra')
+                    }
+                  >
+                    {fmtIDHM(idhm)}
                   </span>
                 </button>
               </li>
             )
           })}
         </ul>
-        {filtered.length > 240 && (
-          <div className="num text-[10px] text-ink-50 mt-2">
-            + {(filtered.length - 240).toLocaleString('pt-BR')} mais. Refine a busca.
-          </div>
-        )}
       </div>
-    </>
+      <div className="flex justify-between items-center mt-2 num text-[10px] text-ink-50">
+        <span>
+          {loading
+            ? 'carregando…'
+            : `pop. ${rows[0]?.stats?.popAno ?? '—'} · pib ${rows[0]?.stats?.pibAno ?? '—'} · idhm 2010`}
+        </span>
+        {showFooter && <span>{showFooter}</span>}
+      </div>
+    </div>
+  )
+}
+
+function SortHead({
+  label,
+  active,
+  dir,
+  onClick,
+  align,
+}: {
+  label: string
+  active: boolean
+  dir: 'asc' | 'desc'
+  onClick: () => void
+  align: 'left' | 'right'
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={
+        'flex items-center gap-1 text-[9px] tracking-[0.18em] uppercase ' +
+        (align === 'right' ? 'justify-end' : 'justify-start') +
+        ' ' +
+        (active ? 'text-ink' : 'text-ink-50 hover:text-ink')
+      }
+    >
+      <span>{label}</span>
+      <span className="num text-[8px] opacity-60">
+        {active ? (dir === 'asc' ? '↑' : '↓') : '↕'}
+      </span>
+    </button>
   )
 }
 
 function CidadePanel({ municipioId }: { municipioId: number }) {
   const m = MUNICIPIOS_BY_ID[municipioId]
   const [info, setInfo] = useState<MunicipioInfo | null>(null)
+
+  const ufId = m
+    ? STATES_BY_SIGLA[m.uf]?.properties.id ?? null
+    : null
+  const { stats } = useStateStats(ufId)
+  const munStats = stats?.get(municipioId)
+  const idhm = getIDHM(municipioId)
+
   useEffect(() => {
     let alive = true
     setInfo(null)
@@ -350,6 +606,19 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
     }
   }, [municipioId])
   if (!m) return null
+  const idhmTier =
+    idhm == null
+      ? null
+      : idhm >= 0.8
+        ? { label: 'muito alto', cor: '#1F3D2E' }
+        : idhm >= 0.7
+          ? { label: 'alto', cor: '#2E5A45' }
+          : idhm >= 0.6
+            ? { label: 'médio', cor: '#9A6E2A' }
+            : idhm >= 0.5
+              ? { label: 'baixo', cor: '#A0432A' }
+              : { label: 'muito baixo', cor: '#7A3220' }
+
   return (
     <div>
       <div className="num text-[10px] tracking-[0.3em] uppercase text-terra">
@@ -361,7 +630,44 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
       >
         {m.nome}
       </h3>
-      <dl className="grid grid-cols-2 gap-x-4 gap-y-2 mt-4 text-sm">
+      <div className="grid grid-cols-3 gap-3 mt-5">
+        <Stat
+          label="população"
+          value={fmtPop(munStats?.populacao)}
+          sub={munStats?.popAno ? `Censo ${munStats.popAno}` : 'Censo 2022'}
+        />
+        <Stat
+          label="pib per capita"
+          value={
+            munStats?.pibPerCapita
+              ? 'R$ ' + fmtR$(munStats.pibPerCapita)
+              : '—'
+          }
+          sub={munStats?.pibAno ? `${munStats.pibAno}` : 'IBGE'}
+        />
+        <Stat
+          label="idhm"
+          value={fmtIDHM(idhm)}
+          sub={idhmTier ? idhmTier.label : 'PNUD 2010'}
+          color={idhmTier?.cor}
+        />
+        <Stat
+          label="área"
+          value={fmtArea(munStats?.area)}
+          sub="km²"
+        />
+        <Stat
+          label="densidade"
+          value={fmtDens(munStats?.densidade)}
+          sub="hab / km²"
+        />
+        <Stat
+          label="pib total"
+          value={fmtPibTotal(munStats?.pib)}
+          sub={munStats?.pibAno ? `IBGE ${munStats.pibAno}` : 'IBGE'}
+        />
+      </div>
+      <dl className="grid grid-cols-2 gap-x-4 gap-y-2 mt-6 text-sm">
         <Field k="UF" v={m.uf} />
         <Field k="Região" v={REGIONS[m.regiao].nome} />
         <Field k="Microrregião" v={info?.microrregiao} />
@@ -369,6 +675,40 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
         <Field k="Região imediata" v={info?.regiaoImediata} />
         <Field k="Região intermediária" v={info?.regiaoIntermediaria} />
       </dl>
+    </div>
+  )
+}
+
+function Stat({
+  label,
+  value,
+  sub,
+  color,
+}: {
+  label: string
+  value: string
+  sub?: string
+  color?: string
+}) {
+  return (
+    <div className="bg-paper-warm hairline px-3 py-2.5">
+      <div className="num text-[9px] tracking-[0.2em] uppercase text-ink-50">
+        {label}
+      </div>
+      <div
+        className="font-display text-2xl leading-none mt-1 tabular-nums"
+        style={{
+          fontVariationSettings: '"opsz" 36',
+          color: color ?? undefined,
+        }}
+      >
+        {value}
+      </div>
+      {sub && (
+        <div className="num text-[9px] tracking-[0.18em] uppercase text-ink-30 mt-1">
+          {sub}
+        </div>
+      )}
     </div>
   )
 }
