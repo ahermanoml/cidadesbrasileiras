@@ -3218,5 +3218,235 @@
         "fonte": "https://www.minasgerais.com.br/pt/atracoes/praia-de-lagoa-da-prata"
       }
     ]
+  },
+  "3138401": {
+    "id": 3138401,
+    "nome": "Leopoldina",
+    "fatos": [
+      {
+        "texto": "Leopoldina foi emancipada em 27 de abril de 1854 e batizada em homenagem à princesa Leopoldina de Bragança e Bourbon, filha do imperador D. Pedro II, sendo elevada à categoria de cidade em 1861.",
+        "fonte": "https://pt.wikipedia.org/wiki/Leopoldina_(Minas_Gerais)"
+      },
+      {
+        "texto": "Antes da emancipação, o povoado se chamava São Sebastião do Feijão Cru, nome originado de um acampamento onde o cozinheiro deixou o vento apagar o fogo, servindo o feijão cru aos tropeiros que passavam pela região.",
+        "fonte": "https://leopoldinamg.wordpress.com/"
+      },
+      {
+        "texto": "O poeta paraibano Augusto dos Anjos morreu em Leopoldina em 12 de novembro de 1914, aos 30 anos, vítima de pneumonia, enquanto dirigia o Grupo Escolar Ribeiro Junqueira, para onde havia se mudado em julho daquele ano.",
+        "fonte": "https://www.portalsaofrancisco.com.br/biografias/augusto-dos-anjos"
+      },
+      {
+        "texto": "A casa onde Augusto dos Anjos viveu seus últimos meses, no centro da cidade, abriga hoje o Museu Espaço dos Anjos, e o poeta é patrono da Academia Leopoldinense de Letras e Artes.",
+        "fonte": "https://www.ipatrimonio.org/leopoldina-espaco-augusto-dos-anjos/"
+      },
+      {
+        "texto": "A Companhia Estrada de Ferro Leopoldina foi constituída pelo Decreto nº 4.976 de 5 de junho de 1872 e teve seu primeiro trecho de 38 km inaugurado em 8 de outubro de 1874 com a presença do imperador D. Pedro II, sendo a primeira ferrovia implantada em Minas Gerais.",
+        "fonte": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Leopoldina"
+      },
+      {
+        "texto": "Em 1883, no auge do ciclo do café, Leopoldina possuía o segundo maior plantel de pessoas escravizadas da província de Minas Gerais, atrás apenas de Juiz de Fora.",
+        "fonte": "https://pt.wikipedia.org/wiki/Leopoldina_(Minas_Gerais)"
+      },
+      {
+        "texto": "A Usina Hidrelétrica Maurício, instalada na divisa entre Leopoldina e Cataguases e inaugurada em 14 de julho de 1908 com 800 kW, foi a sexta hidrelétrica do país para iluminação pública e a primeira do Brasil a fornecer energia para mais de uma cidade simultaneamente.",
+        "fonte": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_Maur%C3%ADcio"
+      },
+      {
+        "texto": "Carlos Coimbra da Luz, presidente do Brasil entre 8 e 11 de novembro de 1955, foi prefeito de Leopoldina e, em 16 de março de 1927, sancionou como presidente da Câmara a Lei Municipal nº 412, que viabilizou a reforma do Cine-Theatro Alencar em estilo neoclássico.",
+        "fonte": "https://theatroalencar.wordpress.com/category/theatro-alencar/"
+      },
+      {
+        "texto": "Clóvis Salgado da Gama, nascido em Leopoldina em 20 de janeiro de 1906, foi governador de Minas Gerais (1955-1956) e ministro da Educação e Cultura no governo Juscelino Kubitschek, criando o Teatro Nacional de Comédia e o Museu Villa-Lobos.",
+        "fonte": "https://pt.wikipedia.org/wiki/Cl%C3%B3vis_Salgado"
+      },
+      {
+        "texto": "O Centro Universitário Doctum (UNIDOCTUM) de Leopoldina, instalado na Av. Getúlio Vargas, 635, no Centro, oferece mais de 20 cursos presenciais e EAD e é apontado como um dos projetos de maior sucesso da Rede Doctum na Zona da Mata mineira.",
+        "fonte": "https://www.doctum.edu.br/locations/leopoldina/"
+      }
+    ]
+  },
+  "3128709": {
+    "id": 3128709,
+    "nome": "Guaxupé",
+    "fatos": [
+      {
+        "texto": "O nome Guaxupé tem origem tupi e segundo Teodoro Sampaio significa algo como 'cesta de abelhas que faz ninho dentro da terra', referindo-se a uma espécie de abelha selvagem sem ferrão, o que rendeu à cidade o apelido de 'Cidade das Abelhas'.",
+        "fonte": "https://www.turismoguaxupe.com.br/historia"
+      },
+      {
+        "texto": "Sediada em Guaxupé, a Cooxupé (Cooperativa Regional de Cafeicultores em Guaxupé) é considerada a maior cooperativa de café do mundo, reunindo cerca de 20 mil cooperados em 126 municípios e respondendo por 14,4% da safra brasileira de café arábica.",
+        "fonte": "https://exame.com/agro/o-empresario-que-criou-a-maior-cooperativa-de-cafe-do-mundo-e-um-negocio-de-r-105-bilhoes/"
+      },
+      {
+        "texto": "A Cooxupé foi fundada em 1932 por Isaac Ferreira Leite, que presidiu a cooperativa por 46 anos até sua morte, em 2006, e em 1957 ela passou de cooperativa de crédito agrícola para cooperativa de produção cafeeira.",
+        "fonte": "https://hubdocafe.cooxupe.com.br/o-empresario-que-criou-a-maior-cooperativa-de-cafe-do-mundo/"
+      },
+      {
+        "texto": "Em 2024 a Cooxupé registrou o maior faturamento de sua história, R$ 10,7 bilhões (alta de 67% sobre 2023), exportando 5,1 milhões de sacas de café para mais de 50 países, entre eles Estados Unidos, Alemanha, Bélgica e China.",
+        "fonte": "https://www.revistafatorbrasil.com.br/2025/03/29/cooxupe-anuncia-faturamento-de-r-107-bilhoes-em-2024/"
+      },
+      {
+        "texto": "A chegada dos trilhos da Companhia Mogiana de Estradas de Ferro à Estação de Dores de Guaxupé, em 15 de maio de 1904, fez da cidade uma 'ponta de linha' e atraiu massivamente imigrantes italianos e sírio-libaneses, transformando sua economia cafeeira.",
+        "fonte": "http://www.snh2011.anpuh.org/resources/anais/14/1300662056_ARQUIVO_LeandroAparecidoLopes.pdf"
+      },
+      {
+        "texto": "Devido à expressiva colônia árabe atraída pela ferrovia, Guaxupé abriga a Igreja Ortodoxa Antioquina Santo Elias Profeta, cuja construção começou em 1908 e é considerada por estudiosos como a segunda igreja ortodoxa erguida no Brasil.",
+        "fonte": "https://correiosudoeste.com.br/noticia/3994/Col%C3%B4nia-S%C3%ADrio-Libanesa-%C3%A9-homenageada-com-a-denomina%C3%A7%C3%A3o-de-vias-p%C3%BAblicas"
+      },
+      {
+        "texto": "A Diocese de Guaxupé foi criada em 3 de fevereiro de 1916 pelo Papa Bento XV, por meio da bula 'Universalis Ecclesiae procuratio', com 33 paróquias desmembradas da Diocese de Pouso Alegre, tendo Dom Antônio Augusto de Assis como primeiro bispo.",
+        "fonte": "https://pt.wikipedia.org/wiki/Diocese_de_Guaxup%C3%A9"
+      },
+      {
+        "texto": "O Centro Universitário da Fundação Educacional Guaxupé (UNIFEG), principal instituição de ensino superior da cidade, soma mais de 50 anos de história e oferece dezenas de cursos de graduação, do Direito à Engenharia Química, no campus central da Avenida Dona Floriana.",
+        "fonte": "https://www.unifeg.edu.br/"
+      },
+      {
+        "texto": "A tradicional Festa Nacional das Orquídeas de Guaxupé teve sua primeira edição em 1952, idealizada pelo Dr. Alberto Carlos Pereira Filho a partir do Núcleo de Orquidófilos criado em 1951, e em 2024 chegou à 71ª edição, fazendo da cidade um ícone da orquidofilia nacional.",
+        "fonte": "https://www.jornaljogoserio.com.br/noticia/cultura/14411/comeca-hoje-a-71a-exposicao-nacional-de-orquideas-de-guaxupe"
+      },
+      {
+        "texto": "A Sociedade Esportiva Guaxupé, fundada em 12 de março de 1952 pela fusão do EC Mogiana, Palmeirinha FC e Vila Rica FC, estreou no futebol profissional em 1975 direto na elite do Campeonato Mineiro, em uma época sem divisões inferiores.",
+        "fonte": "https://en.wikipedia.org/wiki/Sociedade_Esportiva_Guaxup%C3%A9"
+      }
+    ]
+  },
+  "3107307": {
+    "id": 3107307,
+    "nome": "Bocaiúva",
+    "fatos": [
+      {
+        "texto": "Localizada no Norte de Minas, a cerca de 369 km de Belo Horizonte e 48 km de Montes Claros, Bocaiúva tinha 48.032 habitantes no Censo 2022 e ocupa uma área de 3.206,757 km².",
+        "fonte": "https://pt.wikipedia.org/wiki/Bocaiuva"
+      },
+      {
+        "texto": "Antes de receber o nome atual em 4 de junho de 1890, pelo Decreto Estadual nº 90, o povoado foi chamado sucessivamente de Curato de Macahúbas, Arraial do Senhor do Bonfim, Vila do Jequitaí e Vila Nova do Jequitaí.",
+        "fonte": "https://redescobrindoosvales.tur.br/norte/microrregiao-de-bocaiuva/bocaiuva/historia.php"
+      },
+      {
+        "texto": "O nome do município remete à palmeira nativa bocaiúva (Acrocomia aculeata), conhecida também como macaúba, palavra de origem tupi (mokaie'yba) abundante na região entre os rios Jequitaí e Macaúbas.",
+        "fonte": "https://pt.wikipedia.org/wiki/Coco-de-espinho"
+      },
+      {
+        "texto": "O patrono do nome é Quintino Antônio Ferreira de Sousa Bocaiúva (1836-1912), jornalista e político republicano, ministro das Relações Exteriores do Brasil entre 1889 e 1891 e apelidado de 'Patriarca da República'.",
+        "fonte": "http://mapa.an.gov.br/index.php/dicionario-primeira-republica/1138-quintino-bocaiuva-quintino-antonio-ferreira-de-sousa"
+      },
+      {
+        "texto": "A Estação Ferroviária de Bocaiúva, parte do Ramal de Montes Claros da Estrada de Ferro Central do Brasil que se estendia por 265 km a partir de Corinto, foi tombada pela Prefeitura pelos Decretos nº 4.096/2010 e nº 4.137/2010 e abriga hoje o Museu Histórico Cultural.",
+        "fonte": "https://www.ipatrimonio.org/bocaiuva-estacao-ferroviaria/"
+      },
+      {
+        "texto": "Em 20 de maio de 1947, Bocaiúva foi escolhida como ponto central do eclipse total do Sol e recebeu expedições de Estados Unidos, Rússia e Reino Unido, com 36 toneladas de equipamentos e até um bombardeiro B-17 da Força Aérea dos EUA usado para fotografar o fenômeno.",
+        "fonte": "http://opequizeiro.blogspot.com/2012/05/65-anos-do-eclipse-solar-de-bocaiuva.html"
+      },
+      {
+        "texto": "Os marcos identificadores do ponto central do eclipse de 20 de maio de 1947, instalados na Fazenda Extrema, a cerca de 15 km da sede, foram protegidos como patrimônio cultural municipal pelo artigo 202 da Lei Orgânica.",
+        "fonte": "http://www.ipatrimonio.org/bocaiuva-marcos-identificadores-do-ponto-central-do-eclipse-do-sol/"
+      },
+      {
+        "texto": "O sociólogo Herbert José de Sousa, o Betinho, idealizador da Ação da Cidadania contra a Fome, a Miséria e pela Vida e fundador do IBASE em 1981, nasceu em Bocaiúva em 3 de novembro de 1935.",
+        "fonte": "https://pt.wikipedia.org/wiki/Betinho"
+      },
+      {
+        "texto": "O ex-ministro do Desenvolvimento Social Patrus Ananias de Sousa, um dos fundadores do PT na década de 1970 e responsável pela implantação do MDS no governo Lula em 2004, nasceu em Bocaiúva em 26 de janeiro de 1952.",
+        "fonte": "https://www.camara.leg.br/deputados/74160/biografia"
+      },
+      {
+        "texto": "O atleta paralímpico bocaiuvense Claudiney Batista dos Santos conquistou o tricampeonato no lançamento de disco classe F56 em Paris 2024, com a marca de 46,86 m, e detém o recorde mundial de 47,37 m, estabelecido em São Paulo em 17 de junho de 2023.",
+        "fonte": "https://cpb.org.br/noticias/claudiney-batista-leva-ouro-e-conquista-tricampeonato-paralimpico-no-lancamento-de-disco-em-paris/"
+      }
+    ]
+  },
+  "3121605": {
+    "id": 3121605,
+    "nome": "Diamantina",
+    "fatos": [
+      {
+        "texto": "O Centro Histórico de Diamantina foi inscrito como Patrimônio Mundial pela UNESCO em dezembro de 1999, reconhecido por preservar mais de 90% de suas edificações coloniais originais e ser testemunho único da adaptação dos modelos urbanos europeus ao interior do Brasil setecentista.",
+        "fonte": "https://pt.wikipedia.org/wiki/Centro_Hist%C3%B3rico_de_Diamantina"
+      },
+      {
+        "texto": "Originalmente chamada Arraial do Tijuco, a povoação surgiu por volta de 1713 com a descoberta de ouro e teve seu nome alterado para Diamantina em 13 de outubro de 1831, quando foi emancipada como vila, sendo elevada a cidade em 1838.",
+        "fonte": "https://pt.wikipedia.org/wiki/Diamantina"
+      },
+      {
+        "texto": "A partir de 1734, com a criação da Demarcação Diamantina, a Coroa Portuguesa proibiu a entrada de qualquer pessoa sem licença escrita do Intendente, e em 1771 o Marquês de Pombal instituiu a Real Extração e o famoso Regimento Diamantino, conhecido como Livro da Capa Verde.",
+        "fonte": "https://pt.wikipedia.org/wiki/Diamantina"
+      },
+      {
+        "texto": "Chica da Silva, nascida Francisca da Silva de Oliveira por volta de 1732 no Serro, foi alforriada em 1754 e viveu união consensual de 17 anos (1753-1770) com o contratador de diamantes João Fernandes de Oliveira, com quem teve 13 filhos, residindo na casa da atual Praça Lobo de Mesquita, nº 266.",
+        "fonte": "https://pt.wikipedia.org/wiki/Chica_da_Silva"
+      },
+      {
+        "texto": "Juscelino Kubitschek, presidente do Brasil entre 1956 e 1961 e fundador de Brasília, nasceu em Diamantina em 12 de setembro de 1902, filho da professora Júlia Kubitschek, neta do imigrante boêmio Jan Nepomuk Kubíček, chegado ao Brasil por volta de 1835.",
+        "fonte": "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek"
+      },
+      {
+        "texto": "A Casa de Juscelino Kubitschek, na Rua São Francisco nº 241, foi construída em pau a pique no século XVIII e transformada em museu em 1985, abrigando a biblioteca, fotografias e os violões usados por JK nas serestas da cidade.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/diamantina/casa-de-juscelino-kubitschek"
+      },
+      {
+        "texto": "Diamantina foi berço do compositor José Joaquim Emerico Lobo de Mesquita (1746-1805), considerado o mais importante nome do Barroco mineiro, que atuou como organista da Catedral de Santo Antônio do Tijuco entre 1776 e 1798 e teve 40 obras inéditas redescobertas entre 1944 e 1959 pelo musicólogo uruguaio Francisco Curt Lange.",
+        "fonte": "https://pt.wikipedia.org/wiki/Emerico_Lobo_de_Mesquita"
+      },
+      {
+        "texto": "A atual Catedral Metropolitana de Santo Antônio foi erguida entre 1932 e 1938 em estilo eclético, no lugar da antiga igreja matriz barroca de cerca de 1750, demolida em 1932; dois retábulos setecentistas foram preservados e transferidos para o novo templo.",
+        "fonte": "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Diamantina"
+      },
+      {
+        "texto": "Diamantina abriga raro conjunto modernista de Oscar Niemeyer encomendado por JK, incluindo o Hotel Tijuco (1951) com pilotis em V, a Escola Estadual Júlia Kubitschek e a Faculdade Federal de Odontologia (1953), embrião da UFVJM, criada pela Lei nº 11.173 de 6 de setembro de 2005.",
+        "fonte": "https://pt.wikipedia.org/wiki/Universidade_Federal_dos_Vales_do_Jequitinhonha_e_Mucuri"
+      },
+      {
+        "texto": "A Vesperata, considerada uma serenata ao contrário, é apresentada na Rua da Quitanda desde a década de 1990 com músicos tocando nas sacadas dos casarões para o público nas mesas abaixo, retomando uma tradição diamantinense do século XIX; o Carnaval de rua, com blocos centenários como o Sapo Seco, atrai cerca de 40 mil foliões por dia.",
+        "fonte": "https://www.minasgerais.com.br/pt/blog/artigo/vesperata-de-diamantina"
+      }
+    ]
+  },
+  "3143104": {
+    "id": 3143104,
+    "nome": "Monte Carmelo",
+    "fatos": [
+      {
+        "texto": "O povoado nasceu por volta de 1840, quando garimpeiros ligados ao ciclo do diamante do Rio Bagagem (atual Estrela do Sul) buscaram um local mais afastado às margens dos córregos Mumbuca e Olaria para instalar suas famílias, dando origem ao arraial de Carmo da Bagagem.",
+        "fonte": "https://pt.wikipedia.org/wiki/Monte_Carmelo_(Minas_Gerais)"
+      },
+      {
+        "texto": "O nome atual foi adotado em 25 de junho de 1900, pela lei estadual nº 286, em referência a um morro próximo à sede (hoje conhecido como Igrejinha) que lembrava o Monte Carmelo da Palestina, ligado à devoção carmelita a Nossa Senhora do Carmo, padroeira do município.",
+        "fonte": "https://pt.wikipedia.org/wiki/Monte_Carmelo_(Minas_Gerais)"
+      },
+      {
+        "texto": "Em 6 de outubro de 1882, o arraial foi elevado a vila pela lei provincial nº 2.927, com o nome de Nossa Senhora do Carmo da Bagagem, e em 24 de maio de 1892 a vila foi promovida à categoria de cidade.",
+        "fonte": "https://www.montecarmelo.mg.gov.br/historia"
+      },
+      {
+        "texto": "Monte Carmelo integra o eixo de excelência cafeeiro do Cerrado Mineiro ao lado de Araguari, Uberaba e Patrocínio, com cerca de 15.000 hectares plantados e aproximadamente 45 milhões de pés de café arábica como principal produto agrícola.",
+        "fonte": "https://pt.wikipedia.org/wiki/Monte_Carmelo_(Minas_Gerais)"
+      },
+      {
+        "texto": "A cidade abriga a sede da MonteCCer (Cooperativa dos Cafeicultores do Cerrado de Monte Carmelo), fundada em 13 de junho de 1995, que se tornou referência em cafés especiais e em iniciativas como o Café Carbono Regenerativo.",
+        "fonte": "https://sistemaocemg.coop.br/noticia/cooperativa-dos-cafeicultores-do-cerrado-de-monte-carmelo-monteccer-promove-2a-jornada-o-mercado-e-o-cafe-carbono/"
+      },
+      {
+        "texto": "A região é a primeira do Brasil a obter a Denominação de Origem para o café, conquistada em 2013 pela Região do Cerrado Mineiro, com Monte Carmelo entre suas principais cidades produtoras a 900 metros de altitude.",
+        "fonte": "https://blog.bendize.com.br/2020/06/cafe-mineiro/"
+      },
+      {
+        "texto": "O escritor e educador Mário de Ascenção Palmério, autor de Vila dos Confins (1956) e Chapadão do Bugre (1965), nasceu em Monte Carmelo em 1º de março de 1916 e em 4 de abril de 1968 foi eleito para a cadeira nº 2 da Academia Brasileira de Letras, sucedendo Guimarães Rosa.",
+        "fonte": "https://www2.academia.org.br/academicos/mario-palmerio/biografia"
+      },
+      {
+        "texto": "Além de literato, Mário Palmério foi deputado federal pelo PTB por dois mandatos a partir de 1950 e fundador da Universidade de Uberaba (UNIUBE), reconhecida como universidade em 1988 e da qual foi reitor até 1996.",
+        "fonte": "https://uniube.br/instituicao/universidade/fundador"
+      },
+      {
+        "texto": "Em 1997, o antigo Campus VI da UNIUBE em Monte Carmelo foi transformado na Fundação Carmelitana Mário Palmério (FUCAMP), que iniciou suas atividades em 2000 e hoje opera o Centro Universitário Mário Palmério (UNIFUCAMP), maior polo de ensino superior do município.",
+        "fonte": "https://www.unifucamp.edu.br/memorial-mario-palmerio/historia-e-memoria/do-campus-vi-da-uniube-a-fucamp/"
+      },
+      {
+        "texto": "Em 2011 a Universidade Federal de Uberlândia instalou um campus em Monte Carmelo com cursos públicos e gratuitos de Agronomia, Engenharia Cartográfica, Engenharia Florestal e Geologia, ampliando a vocação científica da cidade que tinha 47.692 habitantes em 1.343 km² no Censo de 2022 do IBGE.",
+        "fonte": "https://pt.wikipedia.org/wiki/Monte_Carmelo_(Minas_Gerais)"
+      }
+    ]
   }
 }
