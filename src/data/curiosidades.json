@@ -688,5 +688,235 @@
         "fonte": "https://enciclopedia.itaucultural.org.br/pessoas/3927-arthur-omar"
       }
     ]
+  },
+  "3148004": {
+    "id": 3148004,
+    "nome": "Patos de Minas",
+    "fatos": [
+      {
+        "texto": "O nome da cidade vem da grande quantidade de patos selvagens que habitavam a Lagoa dos Patos, situada cerca de três quilômetros das margens do rio Paranaíba, onde os primeiros colonizadores se estabeleceram no início do século XIX.",
+        "fonte": "https://pt.wikipedia.org/wiki/Patos_de_Minas"
+      },
+      {
+        "texto": "Patos de Minas foi elevada à categoria de cidade em 24 de maio de 1892, pela Lei Estadual nº 23, sancionada pelo então presidente do estado de Minas Gerais, Eduardo da Gama Cerqueira.",
+        "fonte": "https://www.patosja.com.br/cultura/historia-e-celebracao-133-anos-da-emancipacao-de-patos-de-minas"
+      },
+      {
+        "texto": "A Fenamilho (Festa Nacional do Milho), realizada anualmente desde 1959, é considerada a maior festa agropecuária de Minas Gerais; pelo Decreto Presidencial nº 56.286, de 1965, o presidente Humberto Castelo Branco oficializou 24 de maio como o Dia Nacional do Milho.",
+        "fonte": "https://pt.wikipedia.org/wiki/Festa_Nacional_do_Milho"
+      },
+      {
+        "texto": "O título de Capital Nacional do Milho deve-se ao agrônomo Antônio Secundino de São José, precursor do milho híbrido no Brasil em 1945, e à instalação em 1948 de uma das primeiras unidades da Agroceres no município, voltada à produção de sementes híbridas.",
+        "fonte": "https://patosnoticias.com.br/por-que-patos-de-minas-e-a-capital-nacional-do-milho/"
+      },
+      {
+        "texto": "O município abriga a maior bacia leiteira de Minas Gerais e a segunda maior do Brasil, segundo o IBGE, com produção média em torno de 200 milhões de litros de leite por ano.",
+        "fonte": "https://www.otempo.com.br/minas-s-a/laticinios-porto-alegre-abrira-sexta-fabrica-em-patos-de-minas-1.2784192"
+      },
+      {
+        "texto": "O escritor patense Waldomiro Freitas Autran Dourado, nascido em Patos de Minas em 18 de janeiro de 1926, recebeu o Prêmio Camões em 2000 e o Prêmio Machado de Assis da Academia Brasileira de Letras em 2008 pelo conjunto de sua obra.",
+        "fonte": "https://www.academia.org.br/artigos/autran-dourado"
+      },
+      {
+        "texto": "Vanessa Cristina Pereira, nascida em Patos de Minas, foi eleita por três anos consecutivos (2010, 2011 e 2012) a Melhor Jogadora de Futsal Feminino do Mundo pela Umbro Futsal Awards e é hexacampeã pela Seleção Brasileira.",
+        "fonte": "https://pt.wikipedia.org/wiki/Vanessa_Cristina_Pereira"
+      },
+      {
+        "texto": "O técnico de futebol Fernando Diniz, natural de Patos de Minas e nascido em 27 de março de 1974, levou o Fluminense ao primeiro título de Copa Libertadores da história do clube na final de 4 de novembro de 2023, no Maracanã.",
+        "fonte": "https://en.wikipedia.org/wiki/Fernando_Diniz"
+      },
+      {
+        "texto": "A Catedral de Santo Antônio de Pádua, em estilo neoclássico, teve sua pedra fundamental lançada em 13 de junho de 1934, foi aberta ao público em 13 de junho de 1954 e tornou-se sede episcopal com a criação da Diocese de Patos de Minas em 5 de abril de 1955.",
+        "fonte": "https://pt.wikipedia.org/wiki/Catedral_de_Santo_Ant%C3%B4nio_de_P%C3%A1dua_(Patos_de_Minas)"
+      },
+      {
+        "texto": "O Centro Universitário de Patos de Minas (UNIPAM), mantido pela Fundação Educacional de Patos de Minas (FEPAM), foi criado pela Lei Estadual nº 4.776, de 27 de maio de 1968, e instituído pelo Decreto Estadual nº 11.348, de 30 de setembro do mesmo ano, sendo o principal polo de ensino superior do Alto Paranaíba.",
+        "fonte": "https://unipam.edu.br/apresentacao.php"
+      }
+    ]
+  },
+  "3152501": {
+    "id": 3152501,
+    "nome": "Pouso Alegre",
+    "fatos": [
+      {
+        "texto": "O nome da cidade nasceu no século XVIII de uma exclamação dos tropeiros que cruzavam o vau do Rio Mandu rumo às minas das Gerais: encantados com a beleza do lugar, batizaram o ponto de descanso de 'pouso alegre', substituindo o topônimo original 'Mandu'.",
+        "fonte": "https://vemprapousoalegre.com.br/historia"
+      },
+      {
+        "texto": "Por volta de 1755 foi instalado no povoado um Registro fiscal da Coroa portuguesa para evitar o desvio clandestino de ouro das minas de Santana do Sapucaí e Ouro Fino rumo a São Paulo e Santos, cobrando o quinto devido a Lisboa.",
+        "fonte": "https://vemprapousoalegre.com.br/historia"
+      },
+      {
+        "texto": "Em 7 de setembro de 1830 o padre José Bento Leite Ferreira de Melo lançou em Pouso Alegre 'O Pregoeiro Constitucional', primeiro jornal do Sul de Minas e sexto da Província; em suas oficinas foi impresso, em 1831, um projeto conhecido como 'Constituição de Pouso Alegre'.",
+        "fonte": "https://pt.wikipedia.org/wiki/O_Pregoeiro_Constitucional"
+      },
+      {
+        "texto": "A Catedral Metropolitana de Senhor Bom Jesus, em estilo neogótico/românico-lombardo, teve sua pedra fundamental lançada em 6 de maio de 1948 e só foi consagrada em 3 de agosto de 1980, depois de mais de três décadas de obras; a Diocese, criada em 4 de agosto de 1900, foi elevada a Arquidiocese em 14 de abril de 1962.",
+        "fonte": "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Pouso_Alegre"
+      },
+      {
+        "texto": "O Teatro Municipal de Pouso Alegre, inaugurado em 1875 pela Associação Dramática local, é mais antigo que o Teatro Municipal de São Paulo (1911) e foi concebido como uma miniatura inspirada no célebre teatro de Vila Rica (Ouro Preto).",
+        "fonte": "https://www.ipatrimonio.org/pouso-alegre-teatro-municipal/"
+      },
+      {
+        "texto": "Inaugurada em 1935 na Praça Senador José Bento, a Fonte Luminosa da Independência, projetada por Antônio Corrêa Beraldo, é considerada a primeira fonte luminosa do Brasil, com a peculiaridade de produzir movimentos d'água e luzes coloridas a partir de um único motor de engrenagens artesanais.",
+        "fonte": "https://www.ipatrimonio.org/pouso-alegre-fonte-luminosa-da-independencia/"
+      },
+      {
+        "texto": "A Universidade do Vale do Sapucaí (Univás) tem origem na Fundação Universidade do Vale do Sapucaí, criada pela Lei Estadual nº 3.227 de 25 de novembro de 1964; sua Faculdade de Ciências Médicas Dr. José Antônio Garcia Coutinho foi autorizada pelo Decreto 63.666/1968 e realizou o primeiro vestibular de Medicina em 1969.",
+        "fonte": "https://pt.wikipedia.org/wiki/Universidade_do_Vale_do_Sapuca%C3%AD"
+      },
+      {
+        "texto": "Pouso Alegre é o coração nacional do morango: em 2024 produziu 102,25 mil toneladas, o equivalente a 87,5% da safra mineira, com cerca de 99% da produção saindo de propriedades familiares com média de meio hectare.",
+        "fonte": "https://pousoalegre.mg.gov.br/noticias_individual/4843"
+      },
+      {
+        "texto": "Em Pouso Alegre nasceram o banqueiro e diplomata Walther Moreira Salles (28 de maio de 1912), fundador do Unibanco, e Bernardino José de Campos Júnior (6 de setembro de 1841), duas vezes presidente do estado de São Paulo (1892-1896 e 1902-1904) e um dos fundadores do Partido Republicano Paulista.",
+        "fonte": "https://pt.wikipedia.org/wiki/Bernardino_de_Campos_(pol%C3%ADtico)"
+      },
+      {
+        "texto": "Inaugurado em dezembro de 2000 e esculpido pelo artista Genésio Moura em ferro e concreto, o Cristo Redentor de Pouso Alegre tem 33 metros de altura e é considerado o terceiro maior do Brasil, instalado a cerca de 1.200 metros de altitude no Bairro São João.",
+        "fonte": "https://www.em.com.br/app/noticia/gerais/2021/12/24/interna_gerais,1333502/pouso-alegre-terceiro-maior-cristo-do-brasil-e-revitalizado-e-reaberto.shtml"
+      }
+    ]
+  },
+  "3168606": {
+    "id": 3168606,
+    "nome": "Teófilo Otoni",
+    "fatos": [
+      {
+        "texto": "Teófilo Otoni é mundialmente conhecida como a 'Capital Mundial das Pedras Preciosas', sendo o maior polo de lapidação e comércio de gemas da América do Sul, com cerca de 250 empresas, 360 lapidações e entre 90 e 120 garimpos em sua região de influência.",
+        "fonte": "https://brasilgemas.com/teofilo-otoni-capital-mundial-das-pedras-preciosas/"
+      },
+      {
+        "texto": "A cidade foi fundada em 7 de setembro de 1853 às margens do rio Todos os Santos com o nome de Filadélfia, escolhido por Theophilo Benedicto Ottoni em referência à próspera cidade norte-americana ao exclamar 'Aqui farei a minha Filadélfia!'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Te%C3%B3filo_Otoni"
+      },
+      {
+        "texto": "O fundador Teófilo Benedito Ottoni (Serro, 27/01/1807 — Rio de Janeiro, 17/10/1869) foi jornalista, líder liberal e senador do Império; ficou famoso por agitar um lenço branco como símbolo do liberalismo brasileiro e participou da Revolta Liberal de 1842.",
+        "fonte": "https://pt.wikipedia.org/wiki/Te%C3%B3filo_Ottoni"
+      },
+      {
+        "texto": "A Companhia de Comércio e Navegação do Mucuri, criada por Teófilo Ottoni com 75% de capital privado e 25% da Província de Minas Gerais, foi a primeira empresa nacional voltada ao desenvolvimento de uma vasta região do país, atuando entre 1847 e 1863.",
+        "fonte": "https://www.repositorio.ufop.br/handle/123456789/2564"
+      },
+      {
+        "texto": "A estrada Filadélfia–Santa Clara, com cerca de 170 km e inaugurada em agosto de 1857 pela Companhia do Mucuri, é considerada a primeira rodovia do interior do Brasil, construída com a colaboração dos colonos alemães e suíços recém-chegados.",
+        "fonte": "https://pt.wikipedia.org/wiki/Te%C3%B3filo_Otoni"
+      },
+      {
+        "texto": "Os primeiros imigrantes alemães e suíços desembarcaram em 1856 atendendo a anúncios publicados na Alemanha pela Companhia do Mucuri, e a colonização é celebrada até hoje no Dia da Colônia Alemã, em 23 de julho, instituído pela Lei municipal nº 3.085 de 18 de abril de 1989.",
+        "fonte": "https://pt.wikipedia.org/wiki/Te%C3%B3filo_Otoni"
+      },
+      {
+        "texto": "Foram alemães vindos de Idar-Oberstein, tradicional centro lapidário europeu nas minas de ágatas, que introduziram em Teófilo Otoni as primeiras técnicas de lapidação, dando origem ao polo gemológico que hoje processa águas-marinhas, turmalinas, topázios, ametistas e crisoberilos.",
+        "fonte": "https://brasilgemas.com/teofilo-otoni-capital-mundial-das-pedras-preciosas/"
+      },
+      {
+        "texto": "A Feira Internacional de Pedras Preciosas (FIPP) é realizada na cidade ininterruptamente desde 1989 e atrai compradores e investidores de várias partes do mundo, consolidando Teófilo Otoni como destino obrigatório do circuito mineral brasileiro.",
+        "fonte": "https://brasilgemas.com/teofilo-otoni-capital-mundial-das-pedras-preciosas/"
+      },
+      {
+        "texto": "O atacante Fred (Frederico Chaves Guedes), nascido em Teófilo Otoni em 3 de outubro de 1983, foi revelado pelo América Futebol Clube local em 2003, ano em que marcou o gol mais rápido do mundo até então — aos 3,14 segundos — pela Copa São Paulo de Futebol Júnior.",
+        "fonte": "https://www.itatiaia.com.br/editorias/esportes/2022/07/09/fred-gol-mais-rapido-do-mundo-no-america-idolatria-e-decepcao-no-cruzeiro-e-polemica-no-atletico"
+      },
+      {
+        "texto": "A política de Teófilo Ottoni com os indígenas Botocudos do Vale do Mucuri foi marcada pela aproximação não-violenta, conseguindo autorização para abrir estradas, criar fazendas e fundar a paróquia de Filadélfia em territórios até então temidos pelos colonizadores.",
+        "fonte": "https://www.teofilootoni.mg.leg.br/page/historia"
+      }
+    ]
+  },
+  "3170701": {
+    "id": 3170701,
+    "nome": "Varginha",
+    "fatos": [
+      {
+        "texto": "Em 20 de janeiro de 1996, as irmãs Liliane e Valquíria Fátima Silva e a amiga Kátia Andrade Xavier alegaram ter visto uma criatura marrom de olhos vermelhos em um terreno baldio, dando origem ao Caso ET de Varginha, episódio reconhecido em 5 de junho de 2023 como patrimônio imaterial do município.",
+        "fonte": "https://pt.wikipedia.org/wiki/Incidente_de_Varginha"
+      },
+      {
+        "texto": "A cidade abriga, na Praça Marechal Floriano, no centro, uma caixa d'água de cerca de 20 metros em formato de disco voador, construída em 2003, que se tornou o monumento mais fotografado de Varginha.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/varginha/nave-do-et"
+      },
+      {
+        "texto": "Varginha foi a cidade brasileira que mais exportou café em 2023, ultrapassando US$ 1,5 bilhão em vendas, e em 2025 movimentou cerca de US$ 2 bilhões, mantendo a liderança nacional do setor.",
+        "fonte": "https://hubdocafe.cooxupe.com.br/varginha-cidade-mais-exportou-cafe/"
+      },
+      {
+        "texto": "A cidade é sede da Minasul, segunda maior cooperativa cafeeira do Brasil, que exporta 625 mil sacas por ano para 45 países; a Cooxupé, ao contrário do que se imagina, tem matriz em Guaxupé, não em Varginha.",
+        "fonte": "https://www.minasul.com.br/noticias/varginha-mantem-lideranca-nas-exportacoes-de-minas-gerais"
+      },
+      {
+        "texto": "O Aeroporto Major Brigadeiro Trompowsky (IATA: VAG, ICAO: SBVG) foi inaugurado em 1948 a 923 metros de altitude, possui pista asfaltada de 2.100 metros e voltou a operar voos regulares da Azul para Belo Horizonte em dezembro de 2022.",
+        "fonte": "https://pt.wikipedia.org/wiki/Aeroporto_de_Varginha"
+      },
+      {
+        "texto": "O nome 'Varginha' deriva de 'vargem', referência a uma planície baixa situada a cerca de 2 km do antigo arraial do Espírito Santo das Catanduvas, fundado por volta de 1808 no atual bairro da Vargem.",
+        "fonte": "https://pt.wikipedia.org/wiki/Varginha"
+      },
+      {
+        "texto": "O município foi criado pela Lei Provincial nº 2.785, de 22 de setembro de 1881, desmembrado de Três Pontas, e elevado à categoria de cidade em 7 de outubro de 1882 pela Lei Provincial nº 2.950, sob a invocação de Nossa Senhora do Rosário.",
+        "fonte": "https://fundacaoculturaldevarginha.com.br/historia-de-varginha-por-jose-roberto-sales/"
+      },
+      {
+        "texto": "O futebolista Zezé Procópio (José Procópio Mendes), nascido em Varginha em 12 de agosto de 1913, foi titular da Seleção Brasileira na Copa do Mundo de 1938 na França e o primeiro brasileiro a ser expulso em uma Copa do Mundo.",
+        "fonte": "https://pt.wikipedia.org/wiki/Zez%C3%A9_Proc%C3%B3pio"
+      },
+      {
+        "texto": "A lutadora Amanda Ribas, nascida em Varginha em 26 de agosto de 1993, é faixa-preta de judô e jiu-jitsu e estreou no UFC em 29 de junho de 2019, vencendo Emily Whitmire por finalização no UFC on ESPN 3.",
+        "fonte": "https://en.wikipedia.org/wiki/Amanda_Ribas"
+      },
+      {
+        "texto": "Varginha sedia o Porto Seco Sul de Minas, primeira Estação Aduaneira do Interior a operar no Brasil, com mais de 220 mil m² de armazéns e o primeiro armazém climatizado do país para café, com expansão para 720 mil sacas de capacidade.",
+        "fonte": "https://diariodocomercio.com.br/economia/porto-seco-de-varginha-investe-r-60-mi-em-operacao-de-cafe/"
+      }
+    ]
+  },
+  "3118304": {
+    "id": 3118304,
+    "nome": "Conselheiro Lafaiete",
+    "fatos": [
+      {
+        "texto": "A cidade adotou o nome Conselheiro Lafaiete em 27 de março de 1934, no centenário de nascimento do jurista e político Lafayette Rodrigues Pereira (1834-1917), que presidiu o Conselho de Ministros do Império entre 24 de maio de 1883 e 6 de junho de 1884.",
+        "fonte": "https://pt.wikipedia.org/wiki/Lafayette_Rodrigues_Pereira"
+      },
+      {
+        "texto": "Antes de ser Conselheiro Lafaiete, o povoado nasceu por volta de 1683 como Campo Alegre dos Carijós, foi elevado a Real Vila de Queluz em 1790 por ato da rainha D. Maria I assinado pelo Visconde de Barbacena, e passou a se chamar Queluz de Minas no século XIX antes da mudança definitiva em 1934.",
+        "fonte": "https://www.conselheirolafaiete.mg.leg.br/institucional/historia-da-cidade/historia-da-cidade"
+      },
+      {
+        "texto": "A paróquia de Nossa Senhora da Conceição foi instituída em 1709 pelo bispo do Rio de Janeiro D. Francisco de São Jerônimo, sendo a 13ª paróquia criada em Minas Gerais em ordem cronológica; a atual matriz barroca começou a ser erguida em 1733.",
+        "fonte": "https://sanctuaria.art/2016/01/28/matriz-de-nossa-senhora-da-conceicao-conselheiro-lafaiete-mg/"
+      },
+      {
+        "texto": "Após a execução de Tiradentes em 21 de abril de 1792, a antiga Queluz recebeu duas partes do corpo esquartejado do mártir da Inconfidência Mineira: a perna direita foi exposta na Varginha do Lourenço e a perna esquerda no Alto das Bandeirinhas, locais onde ele fizera seus discursos revolucionários no Caminho Novo.",
+        "fonte": "http://bibliotecalafaiete.blogspot.com/p/historico.html"
+      },
+      {
+        "texto": "O escritor romântico Bernardo Guimarães morou em Queluz entre 1873 e 1879 lecionando latim e francês no antigo liceu da cidade, e foi ali, em 1875, que escreveu seu romance abolicionista mais famoso, A Escrava Isaura, publicado pela livraria Garnier.",
+        "fonte": "https://www.em.com.br/gerais/2025/01/7044149-livros-em-cascata-lafaiete-inova-ao-homenagear-autor-de-a-escrava-isaura.html"
+      },
+      {
+        "texto": "A mineração comercial do Morro da Mina começou em 1902 com o primeiro embarque de 5.470 toneladas de manganês para a Inglaterra, e na década de 1940 a jazida tornou-se a maior do mundo em extração de manganês, sendo a única do mundo ocidental a abastecer os Aliados na Segunda Guerra Mundial.",
+        "fonte": "https://www.scielo.br/j/neco/a/Rptyzjgt5wB94sSkDW8gqwD/"
+      },
+      {
+        "texto": "Em 1920, o Morro da Mina foi vendido por US$ 4 milhões para a Companhia Meridional de Mineração, de capital norte-americano, cujo nome batiza até hoje o Meridional Esporte Clube, fundado em referência à empresa e que disputou o Campeonato Mineiro nos anos 1950 até 1962.",
+        "fonte": "https://historiaegenealogialafaiete.blogspot.com/2017/12/morro-daa-mina-parte-2-final.html"
+      },
+      {
+        "texto": "A estação ferroviária de Conselheiro Lafaiete foi inaugurada em 13 de dezembro de 1883 pela Estrada de Ferro Central do Brasil, no km 462 da Linha do Centro, batizada com o nome Lafayette em homenagem ao Conselheiro do Império nascido na então Queluz.",
+        "fonte": "http://www.estacoesferroviarias.com.br/efcb_mg_linhacentro/conslafaiete.htm"
+      },
+      {
+        "texto": "O distrito de Buarque de Macedo, criado em 12 de dezembro de 1953, homenageia o pernambucano Manoel Buarque de Macedo, Ministro da Agricultura, Comércio e Obras Públicas, que morreu de congestão pulmonar em 27 de agosto de 1881 enquanto acompanhava D. Pedro II em viagem pelo interior de Minas.",
+        "fonte": "https://pt.wikipedia.org/wiki/Buarque_de_Macedo"
+      },
+      {
+        "texto": "A Vale vendeu em 2022 seus ativos de ferroligas de manganês em Conselheiro Lafaiete, Barbacena e Ouro Preto para o Grupo VDL, transferindo cerca de 500 funcionários próprios e terceirizados e mantendo a vocação siderúrgica que caracteriza o município desde o início do século XX.",
+        "fonte": "https://fusoesaquisicoes.com/acontece-no-setor/valecia-confirma-venda-dos-ativos-de-ferroligas-de-manganes-em-mg-para-vdl/"
+      }
+    ]
   }
 }
