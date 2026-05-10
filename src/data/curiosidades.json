@@ -3,80 +3,460 @@
     "id": 3106200,
     "nome": "Belo Horizonte",
     "fatos": [
-      {"texto": "Belo Horizonte foi a primeira cidade brasileira inteiramente planejada antes de ser construída, projetada pelo engenheiro Aarão Reis entre 1894 e 1897, com malha ortogonal cortada por avenidas em diagonais de 45 graus inspiradas em Washington D.C.", "fonte": "https://pt.wikipedia.org/wiki/Belo_Horizonte"},
-      {"texto": "A capital foi inaugurada em 12 de dezembro de 1897 pelo presidente do estado Crispim Jacques Bias Fortes, substituindo Ouro Preto; nos primeiros quatro anos chamou-se oficialmente 'Cidade de Minas', recebendo o nome atual apenas em 1901.", "fonte": "https://pt.wikipedia.org/wiki/Belo_Horizonte"},
-      {"texto": "Antes de virar capital, no local existia o povoado de Curral del-Rei, fundado por volta de 1701 pelo bandeirante João Leite da Silva Ortiz, que ali estabeleceu a Fazenda do Cercado em busca de ouro.", "fonte": "https://pt.wikipedia.org/wiki/Curral_del-Rei"},
-      {"texto": "A Avenida do Contorno, com cerca de 25 km, foi desenhada por Aarão Reis para ser o limite entre a zona urbana e a suburbana; hoje delimita apenas 31,85 km² dos mais de 331 km² do município, mostrando como a cidade extrapolou rapidamente o plano original.", "fonte": "https://pt.wikipedia.org/wiki/Avenida_do_Contorno_(Belo_Horizonte)"},
-      {"texto": "A Igreja de São Francisco de Assis na Pampulha, projetada por Oscar Niemeyer e inaugurada em 1943, foi recusada pela Arquidiocese liderada por dom Antônio dos Santos Cabral e ficou 14 anos sem ser consagrada, sendo aberta ao culto apenas em 1959.", "fonte": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)"},
-      {"texto": "O Conjunto Moderno da Pampulha, encomendado pelo então prefeito Juscelino Kubitschek e reunindo Niemeyer, Portinari, Ceschiatti e Burle Marx, tornou-se em 2016 o primeiro sítio brasileiro do século XX a entrar na lista de Patrimônio Mundial da UNESCO.", "fonte": "https://pt.wikipedia.org/wiki/Conjunto_Arquitet%C3%B4nico_da_Pampulha"},
-      {"texto": "No Mineirão, em 8 de julho de 2014, a Seleção Brasileira sofreu a histórica derrota de 7 a 1 para a Alemanha na semifinal da Copa do Mundo, com quatro gols alemães em apenas seis minutos do primeiro tempo, episódio apelidado de 'Mineiraço'.", "fonte": "https://pt.wikipedia.org/wiki/Brasil_1%E2%80%937_Alemanha_(2014)"},
-      {"texto": "Em 30 de outubro de 2019, Belo Horizonte foi designada Cidade Criativa da Gastronomia pela UNESCO, entrando para uma rede mundial que à época reconhecia apenas 21 cidades nesta categoria, ao lado de nomes como Parma e San Antonio.", "fonte": "https://prefeitura.pbh.gov.br/noticias/belo-horizonte-recebe-titulo-de-cidade-criativa-da-unesco-pela-gastronomia"},
-      {"texto": "O Pirulito da Praça Sete, obelisco de 13,57 metros em 28 peças de cantaria, foi presente da cidade vizinha de Betim em comemoração ao centenário da Independência: a pedra fundamental foi lançada em 7 de setembro de 1922 e a inauguração ocorreu em 7 de setembro de 1924.", "fonte": "https://pt.wikipedia.org/wiki/Obelisco_da_Pra%C3%A7a_Sete_de_Setembro_(Belo_Horizonte)"},
-      {"texto": "O movimento musical Clube da Esquina nasceu nos anos 1960 na esquina das ruas Divinópolis e Paraisópolis, no bairro Santa Tereza, reunindo Milton Nascimento e os irmãos Lô, Márcio e Telo Borges, que se conheceram após Milton se mudar para o Edifício Levy em 1963.", "fonte": "https://pt.wikipedia.org/wiki/Clube_da_Esquina"}
+      {
+        "texto": "Belo Horizonte foi a primeira cidade brasileira inteiramente planejada antes de ser construída, projetada pelo engenheiro Aarão Reis entre 1894 e 1897, com malha ortogonal cortada por avenidas em diagonais de 45 graus inspiradas em Washington D.C.",
+        "fonte": "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+      },
+      {
+        "texto": "A capital foi inaugurada em 12 de dezembro de 1897 pelo presidente do estado Crispim Jacques Bias Fortes, substituindo Ouro Preto; nos primeiros quatro anos chamou-se oficialmente 'Cidade de Minas', recebendo o nome atual apenas em 1901.",
+        "fonte": "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+      },
+      {
+        "texto": "Antes de virar capital, no local existia o povoado de Curral del-Rei, fundado por volta de 1701 pelo bandeirante João Leite da Silva Ortiz, que ali estabeleceu a Fazenda do Cercado em busca de ouro.",
+        "fonte": "https://pt.wikipedia.org/wiki/Curral_del-Rei"
+      },
+      {
+        "texto": "A Avenida do Contorno, com cerca de 25 km, foi desenhada por Aarão Reis para ser o limite entre a zona urbana e a suburbana; hoje delimita apenas 31,85 km² dos mais de 331 km² do município, mostrando como a cidade extrapolou rapidamente o plano original.",
+        "fonte": "https://pt.wikipedia.org/wiki/Avenida_do_Contorno_(Belo_Horizonte)"
+      },
+      {
+        "texto": "A Igreja de São Francisco de Assis na Pampulha, projetada por Oscar Niemeyer e inaugurada em 1943, foi recusada pela Arquidiocese liderada por dom Antônio dos Santos Cabral e ficou 14 anos sem ser consagrada, sendo aberta ao culto apenas em 1959.",
+        "fonte": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)"
+      },
+      {
+        "texto": "O Conjunto Moderno da Pampulha, encomendado pelo então prefeito Juscelino Kubitschek e reunindo Niemeyer, Portinari, Ceschiatti e Burle Marx, tornou-se em 2016 o primeiro sítio brasileiro do século XX a entrar na lista de Patrimônio Mundial da UNESCO.",
+        "fonte": "https://pt.wikipedia.org/wiki/Conjunto_Arquitet%C3%B4nico_da_Pampulha"
+      },
+      {
+        "texto": "No Mineirão, em 8 de julho de 2014, a Seleção Brasileira sofreu a histórica derrota de 7 a 1 para a Alemanha na semifinal da Copa do Mundo, com quatro gols alemães em apenas seis minutos do primeiro tempo, episódio apelidado de 'Mineiraço'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Brasil_1%E2%80%937_Alemanha_(2014)"
+      },
+      {
+        "texto": "Em 30 de outubro de 2019, Belo Horizonte foi designada Cidade Criativa da Gastronomia pela UNESCO, entrando para uma rede mundial que à época reconhecia apenas 21 cidades nesta categoria, ao lado de nomes como Parma e San Antonio.",
+        "fonte": "https://prefeitura.pbh.gov.br/noticias/belo-horizonte-recebe-titulo-de-cidade-criativa-da-unesco-pela-gastronomia"
+      },
+      {
+        "texto": "O Pirulito da Praça Sete, obelisco de 13,57 metros em 28 peças de cantaria, foi presente da cidade vizinha de Betim em comemoração ao centenário da Independência: a pedra fundamental foi lançada em 7 de setembro de 1922 e a inauguração ocorreu em 7 de setembro de 1924.",
+        "fonte": "https://pt.wikipedia.org/wiki/Obelisco_da_Pra%C3%A7a_Sete_de_Setembro_(Belo_Horizonte)"
+      },
+      {
+        "texto": "O movimento musical Clube da Esquina nasceu nos anos 1960 na esquina das ruas Divinópolis e Paraisópolis, no bairro Santa Tereza, reunindo Milton Nascimento e os irmãos Lô, Márcio e Telo Borges, que se conheceram após Milton se mudar para o Edifício Levy em 1963.",
+        "fonte": "https://pt.wikipedia.org/wiki/Clube_da_Esquina"
+      }
     ]
   },
   "3170206": {
     "id": 3170206,
     "nome": "Uberlândia",
     "fatos": [
-      {"texto": "Uberlândia foi fundada em 31 de agosto de 1888 com o nome de São Pedro de Uberabinha, recebendo a denominação atual apenas em 1929; o topônimo combina o latim 'uber' (fértil) com o sufixo germânico '-lândia' (terra).", "fonte": "https://pt.wikipedia.org/wiki/Uberl%C3%A2ndia"},
-      {"texto": "Com cerca de 760 mil habitantes, é a segunda cidade mais populosa de Minas Gerais (atrás apenas de Belo Horizonte) e abriga o 27º maior PIB do Brasil, à frente de capitais como Florianópolis, Cuiabá e Natal.", "fonte": "https://www.em.com.br/emfoco/2026/04/27/essa-gigante-do-interior-mineiro-e-a-27a-cidade-mais-rica-do-brasil-e-quase-ninguem-fora-de-minas-sabe-disso/"},
-      {"texto": "A fábrica da Souza Cruz inaugurada em Uberlândia em 1978 ocupa 872 mil m² e tem capacidade nominal de 70 bilhões de cigarros por ano, sendo a maior unidade do setor na América Latina e a terceira do grupo British American Tobacco no mundo.", "fonte": "https://www.uberlandia.mg.gov.br/2019/07/18/prefeito-participa-da-inauguracao-de-novo-modulo-da-souza-cruz/"},
-      {"texto": "O complexo industrial da Cargill na cidade é o maior da multinacional fora dos Estados Unidos e abriga a maior planta de processamento de soja do Brasil, com capacidade ampliada para cerca de 4.500 toneladas por dia.", "fonte": "https://www.cargill.com.br/pt_BR/2019/inauguracoes-uberlandia"},
-      {"texto": "O Grupo Algar nasceu em Uberlândia em 10 de outubro de 1930, quando o imigrante português Alexandrino Garcia comprou uma máquina de beneficiar arroz; hoje a holding emprega cerca de 21 mil pessoas e atende 3,5 milhões de clientes.", "fonte": "https://pt.wikipedia.org/wiki/Grupo_Algar"},
-      {"texto": "O ator Sebastião Bernardes de Souza Prata, o Grande Otelo, nasceu em Uberlândia em 18 de outubro de 1915 e foi considerado por Orson Welles um dos maiores atores do mundo, com participação no filme 'It's All True' (1942) e em 'Fitzcarraldo' (1982), de Werner Herzog.", "fonte": "https://pt.wikipedia.org/wiki/Grande_Otelo"},
-      {"texto": "O cantor Alexandre Pires nasceu em Uberlândia em 8 de janeiro de 1976 e fundou ali, em 1989, o grupo de pagode Só Pra Contrariar (SPC) ao lado do irmão Fernando Pires e amigos da cidade.", "fonte": "https://pt.wikipedia.org/wiki/Alexandre_Pires"},
-      {"texto": "Inaugurado em 27 de maio de 1982, o Estádio Municipal Parque do Sabiá tem capacidade para 56.450 torcedores e integra um complexo de 1,85 milhão de m² (Virgílio Galassi) com arena multiuso, parque aquático e zoológico.", "fonte": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Parque_do_Sabi%C3%A1"},
-      {"texto": "Fundado em 1935 por 12 amigos às margens do rio Uberabinha, o Praia Clube é tricampeão da Superliga Feminina de Vôlei (2017/18, 2022/23 e 2025/26) e levou 22 atletas às Paralimpíadas de Paris 2024, o maior contingente de um clube brasileiro.", "fonte": "https://praiaclube.org.br/praia-clube-90-anos-de-tradicao-conexao-e-inovacao/"},
-      {"texto": "A chegada da Companhia Mogiana de Estradas de Ferro em 1895 transformou a então São Pedro de Uberabinha em entroncamento ferroviário do café entre São Paulo e Goiás, impulso reforçado pelo primeiro plano diretor de 1905, que traçou cinco grandes avenidas inspiradas no urbanismo de Haussmann em Paris.", "fonte": "https://www.uberlandia.mg.gov.br/2022/08/08/uberlandia-134-anos-trilhos-para-a-prosperidade/"}
+      {
+        "texto": "Uberlândia foi fundada em 31 de agosto de 1888 com o nome de São Pedro de Uberabinha, recebendo a denominação atual apenas em 1929; o topônimo combina o latim 'uber' (fértil) com o sufixo germânico '-lândia' (terra).",
+        "fonte": "https://pt.wikipedia.org/wiki/Uberl%C3%A2ndia"
+      },
+      {
+        "texto": "Com cerca de 760 mil habitantes, é a segunda cidade mais populosa de Minas Gerais (atrás apenas de Belo Horizonte) e abriga o 27º maior PIB do Brasil, à frente de capitais como Florianópolis, Cuiabá e Natal.",
+        "fonte": "https://www.em.com.br/emfoco/2026/04/27/essa-gigante-do-interior-mineiro-e-a-27a-cidade-mais-rica-do-brasil-e-quase-ninguem-fora-de-minas-sabe-disso/"
+      },
+      {
+        "texto": "A fábrica da Souza Cruz inaugurada em Uberlândia em 1978 ocupa 872 mil m² e tem capacidade nominal de 70 bilhões de cigarros por ano, sendo a maior unidade do setor na América Latina e a terceira do grupo British American Tobacco no mundo.",
+        "fonte": "https://www.uberlandia.mg.gov.br/2019/07/18/prefeito-participa-da-inauguracao-de-novo-modulo-da-souza-cruz/"
+      },
+      {
+        "texto": "O complexo industrial da Cargill na cidade é o maior da multinacional fora dos Estados Unidos e abriga a maior planta de processamento de soja do Brasil, com capacidade ampliada para cerca de 4.500 toneladas por dia.",
+        "fonte": "https://www.cargill.com.br/pt_BR/2019/inauguracoes-uberlandia"
+      },
+      {
+        "texto": "O Grupo Algar nasceu em Uberlândia em 10 de outubro de 1930, quando o imigrante português Alexandrino Garcia comprou uma máquina de beneficiar arroz; hoje a holding emprega cerca de 21 mil pessoas e atende 3,5 milhões de clientes.",
+        "fonte": "https://pt.wikipedia.org/wiki/Grupo_Algar"
+      },
+      {
+        "texto": "O ator Sebastião Bernardes de Souza Prata, o Grande Otelo, nasceu em Uberlândia em 18 de outubro de 1915 e foi considerado por Orson Welles um dos maiores atores do mundo, com participação no filme 'It's All True' (1942) e em 'Fitzcarraldo' (1982), de Werner Herzog.",
+        "fonte": "https://pt.wikipedia.org/wiki/Grande_Otelo"
+      },
+      {
+        "texto": "O cantor Alexandre Pires nasceu em Uberlândia em 8 de janeiro de 1976 e fundou ali, em 1989, o grupo de pagode Só Pra Contrariar (SPC) ao lado do irmão Fernando Pires e amigos da cidade.",
+        "fonte": "https://pt.wikipedia.org/wiki/Alexandre_Pires"
+      },
+      {
+        "texto": "Inaugurado em 27 de maio de 1982, o Estádio Municipal Parque do Sabiá tem capacidade para 56.450 torcedores e integra um complexo de 1,85 milhão de m² (Virgílio Galassi) com arena multiuso, parque aquático e zoológico.",
+        "fonte": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Municipal_Parque_do_Sabi%C3%A1"
+      },
+      {
+        "texto": "Fundado em 1935 por 12 amigos às margens do rio Uberabinha, o Praia Clube é tricampeão da Superliga Feminina de Vôlei (2017/18, 2022/23 e 2025/26) e levou 22 atletas às Paralimpíadas de Paris 2024, o maior contingente de um clube brasileiro.",
+        "fonte": "https://praiaclube.org.br/praia-clube-90-anos-de-tradicao-conexao-e-inovacao/"
+      },
+      {
+        "texto": "A chegada da Companhia Mogiana de Estradas de Ferro em 1895 transformou a então São Pedro de Uberabinha em entroncamento ferroviário do café entre São Paulo e Goiás, impulso reforçado pelo primeiro plano diretor de 1905, que traçou cinco grandes avenidas inspiradas no urbanismo de Haussmann em Paris.",
+        "fonte": "https://www.uberlandia.mg.gov.br/2022/08/08/uberlandia-134-anos-trilhos-para-a-prosperidade/"
+      }
     ]
   },
   "3118601": {
     "id": 3118601,
     "nome": "Contagem",
     "fatos": [
-      {"texto": "O nome da cidade vem do posto fiscal português instalado em 1716 às margens do Ribeirão das Abóboras, onde tropeiros eram obrigados a parar para a contagem de cabeças de gado, escravizados e mercadorias vindos do Rio São Francisco rumo às minas, gerando os apelidos coloniais de 'Registro das Abóboras' e 'Contagem das Abóboras'.", "fonte": "https://pt.wikipedia.org/wiki/Contagem"},
-      {"texto": "Pelos decretos 770 e 778 de 1941, assinados pelo governador Benedito Valadares com apoio de Juscelino Kubitschek (então prefeito de BH), foi criada em Contagem a Cidade Industrial Juventino Dias, considerada o primeiro distrito industrial planejado do Brasil.", "fonte": "https://pt.wikipedia.org/wiki/Cidade_Industrial_Juventino_Dias"},
-      {"texto": "A Magnesita Refratários S.A. foi a primeira empresa a se instalar na Cidade Industrial, em 1946, marcando o início da consolidação de Contagem como o maior núcleo fabril de Minas Gerais ao fim dos anos 1950.", "fonte": "https://pt.wikipedia.org/wiki/Cidade_Industrial_Juventino_Dias"},
-      {"texto": "Em 16 de abril de 1968, operários da Belgo-Mineira de Contagem deflagraram a primeira grande greve operária após o golpe militar de 1964, paralisando cerca de 16 mil trabalhadores em fábricas como Mannesmann e SBE e exigindo 25% de reajuste salarial.", "fonte": "https://www.brasildefato.com.br/2018/05/29/primeira-grande-greve-apos-o-golpe-de-64-completa-meio-seculo/"},
-      {"texto": "Contagem foi emancipada em 30 de agosto de 1911 pela Lei nº 556, separando-se dos municípios de Sabará e Santa Quitéria (atual Esmeraldas), depois de quase dois séculos como simples povoado em torno do antigo posto de registro.", "fonte": "https://www.jornalofolha.com.br/sobre-contagem/cronologia-da-historia-de-contagem/"},
-      {"texto": "A Casa de Cacos, no bairro Bernardo Monteiro, foi erguida entre 1963 e 1989 pelo geólogo Carlos Luís de Almeida e é a única edificação de sua tipologia no Brasil — toda revestida com fragmentos de louça e vidro, alguns vindos do próprio Palácio do Planalto, presenteados pela esposa do ex-presidente Ernesto Geisel.", "fonte": "https://pt.wikipedia.org/wiki/Casa_de_Cacos"},
-      {"texto": "A Igreja Matriz de São Gonçalo, no Centro, tem registros que remontam a 1725 e é a construção mais antiga da cidade, abrigando imaginária religiosa setecentista e um retábulo rococó que veio da Igreja de Boa Viagem do antigo Curral del Rei.", "fonte": "https://www.ipatrimonio.org/contagem-matriz-de-sao-goncalo/"},
-      {"texto": "Com 621.865 habitantes em 195 km² (Censo 2022), Contagem é a 3ª cidade mais populosa de Minas Gerais e tem a 2ª maior densidade demográfica do estado, cerca de 3.193 hab/km², atrás apenas de Belo Horizonte.", "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/contagem.html"},
-      {"texto": "A atriz Erika Januza, da Globo (Em Família, O Outro Lado do Paraíso, Amor de Mãe) e ex-rainha de bateria da Viradouro, nasceu em Contagem em 7 de maio de 1985 e trabalhou como professora antes de ingressar nas novelas.", "fonte": "https://pt.wikipedia.org/wiki/Erika_Januza"},
-      {"texto": "O ItaúPower Shopping, na Cidade Industrial, foi inaugurado em 2003 sobre o terreno da antiga Cimento Portland Itaú, cujas chaminés históricas foram preservadas como patrimônio em meio ao novo complexo de varejo.", "fonte": "https://bhaz.com.br/noticias/contagem/cidade-industrial-contagem/"}
+      {
+        "texto": "O nome da cidade vem do posto fiscal português instalado em 1716 às margens do Ribeirão das Abóboras, onde tropeiros eram obrigados a parar para a contagem de cabeças de gado, escravizados e mercadorias vindos do Rio São Francisco rumo às minas, gerando os apelidos coloniais de 'Registro das Abóboras' e 'Contagem das Abóboras'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Contagem"
+      },
+      {
+        "texto": "Pelos decretos 770 e 778 de 1941, assinados pelo governador Benedito Valadares com apoio de Juscelino Kubitschek (então prefeito de BH), foi criada em Contagem a Cidade Industrial Juventino Dias, considerada o primeiro distrito industrial planejado do Brasil.",
+        "fonte": "https://pt.wikipedia.org/wiki/Cidade_Industrial_Juventino_Dias"
+      },
+      {
+        "texto": "A Magnesita Refratários S.A. foi a primeira empresa a se instalar na Cidade Industrial, em 1946, marcando o início da consolidação de Contagem como o maior núcleo fabril de Minas Gerais ao fim dos anos 1950.",
+        "fonte": "https://pt.wikipedia.org/wiki/Cidade_Industrial_Juventino_Dias"
+      },
+      {
+        "texto": "Em 16 de abril de 1968, operários da Belgo-Mineira de Contagem deflagraram a primeira grande greve operária após o golpe militar de 1964, paralisando cerca de 16 mil trabalhadores em fábricas como Mannesmann e SBE e exigindo 25% de reajuste salarial.",
+        "fonte": "https://www.brasildefato.com.br/2018/05/29/primeira-grande-greve-apos-o-golpe-de-64-completa-meio-seculo/"
+      },
+      {
+        "texto": "Contagem foi emancipada em 30 de agosto de 1911 pela Lei nº 556, separando-se dos municípios de Sabará e Santa Quitéria (atual Esmeraldas), depois de quase dois séculos como simples povoado em torno do antigo posto de registro.",
+        "fonte": "https://www.jornalofolha.com.br/sobre-contagem/cronologia-da-historia-de-contagem/"
+      },
+      {
+        "texto": "A Casa de Cacos, no bairro Bernardo Monteiro, foi erguida entre 1963 e 1989 pelo geólogo Carlos Luís de Almeida e é a única edificação de sua tipologia no Brasil — toda revestida com fragmentos de louça e vidro, alguns vindos do próprio Palácio do Planalto, presenteados pela esposa do ex-presidente Ernesto Geisel.",
+        "fonte": "https://pt.wikipedia.org/wiki/Casa_de_Cacos"
+      },
+      {
+        "texto": "A Igreja Matriz de São Gonçalo, no Centro, tem registros que remontam a 1725 e é a construção mais antiga da cidade, abrigando imaginária religiosa setecentista e um retábulo rococó que veio da Igreja de Boa Viagem do antigo Curral del Rei.",
+        "fonte": "https://www.ipatrimonio.org/contagem-matriz-de-sao-goncalo/"
+      },
+      {
+        "texto": "Com 621.865 habitantes em 195 km² (Censo 2022), Contagem é a 3ª cidade mais populosa de Minas Gerais e tem a 2ª maior densidade demográfica do estado, cerca de 3.193 hab/km², atrás apenas de Belo Horizonte.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/contagem.html"
+      },
+      {
+        "texto": "A atriz Erika Januza, da Globo (Em Família, O Outro Lado do Paraíso, Amor de Mãe) e ex-rainha de bateria da Viradouro, nasceu em Contagem em 7 de maio de 1985 e trabalhou como professora antes de ingressar nas novelas.",
+        "fonte": "https://pt.wikipedia.org/wiki/Erika_Januza"
+      },
+      {
+        "texto": "O ItaúPower Shopping, na Cidade Industrial, foi inaugurado em 2003 sobre o terreno da antiga Cimento Portland Itaú, cujas chaminés históricas foram preservadas como patrimônio em meio ao novo complexo de varejo.",
+        "fonte": "https://bhaz.com.br/noticias/contagem/cidade-industrial-contagem/"
+      }
     ]
   },
   "3136702": {
     "id": 3136702,
     "nome": "Juiz de Fora",
     "fatos": [
-      {"texto": "O nome curioso da cidade vem do cargo colonial de 'juiz de fora', magistrado nomeado pela Coroa Portuguesa para atuar onde não havia juiz de direito; um deles teria se hospedado em uma sesmaria às margens do Paraibuna, fazenda que ficou conhecida como Sesmaria do Juiz de Fora.", "fonte": "https://pt.wikipedia.org/wiki/Juiz_de_Fora"},
-      {"texto": "Inaugurada em 5 de setembro de 1889 por iniciativa do industrial Bernardo Mascarenhas, a Usina Hidrelétrica de Marmelos Zero, no Rio Paraibuna, foi a primeira hidrelétrica de grande porte da América do Sul a fornecer energia para iluminação pública.", "fonte": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Marmelos"},
-      {"texto": "Pelo pioneirismo industrial e suas chaminés do início do século XX, Juiz de Fora ficou conhecida como 'Manchester Mineira', alusão à cidade têxtil inglesa, sendo um dos principais polos fabris do Brasil na virada do século.", "fonte": "https://www.conhecaminas.com/2022/05/juiz-de-fora-manchester-mineira.html"},
-      {"texto": "Inaugurada em 23 de junho de 1861 por Dom Pedro II, a Estrada União e Indústria, com 144 km ligando Petrópolis a Juiz de Fora, foi a primeira rodovia pavimentada (em macadame) do Brasil, construída por Mariano Procópio Ferreira Lage com mão de obra de imigrantes alemães.", "fonte": "https://pt.wikipedia.org/wiki/Estrada_Uni%C3%A3o_e_Ind%C3%BAstria"},
-      {"texto": "Fundado em 1915 por Alfredo Ferreira Lage, o Museu Mariano Procópio foi o primeiro museu construído em Minas Gerais e o terceiro do Brasil, abrigando hoje cerca de 45 mil itens em meio a um parque assinado pelo paisagista francês Auguste Glaziou.", "fonte": "https://en.wikipedia.org/wiki/Mariano_Proc%C3%B3pio_Museum"},
-      {"texto": "O Cristo Redentor do Morro do Imperador, inaugurado em 1906 pela construtora Pantaleone Arcuri & Spinelli, foi o primeiro monumento ao Cristo Redentor erguido no Brasil, antecedendo em 25 anos o famoso Cristo do Corcovado, no Rio de Janeiro.", "fonte": "https://arquidiocesejuizdefora.org.br/morro-do-cristo-o-pioneirismo-de-juiz-de-fora-em-homenagear-o-redentor-no-brasil/"},
-      {"texto": "Em 1947, o juiz-forano Olavo Bastos Freire realizou na Rua Marechal Deodoro, 373, a primeira transmissão de imagens em movimento em circuito aberto da América Latina, captando um bonde pela janela de sua oficina três anos antes da estreia oficial da TV no Brasil.", "fonte": "https://pt.wikipedia.org/wiki/Olavo_Bastos_Freire"},
-      {"texto": "A Universidade Federal de Juiz de Fora foi criada em 23 de dezembro de 1960 pelo presidente Juscelino Kubitschek, sendo a segunda universidade federal instalada no interior do Brasil, atrás apenas da de Santa Maria (RS).", "fonte": "https://www2.ufjf.br/ufjf/sobre/historia/"},
-      {"texto": "Foi do quartel da 4ª Região Militar, em Juiz de Fora, que o general Olympio Mourão Filho deu início ao golpe de 31 de março de 1964, mobilizando tropas rumo ao Rio de Janeiro; até hoje a unidade se autodenomina 'Brigada 31 de Março'.", "fonte": "https://atlas.fgv.br/marcos/revolucao-de-1964/mapas/juiz-de-fora-e-o-rio-no-golpe-de-1964"},
-      {"texto": "Em 6 de setembro de 2018, na Rua Halfeld, o então candidato à presidência Jair Bolsonaro foi esfaqueado no abdômen por Adélio Bispo durante ato de campanha, episódio que marcou as eleições daquele ano e ficou nacionalmente conhecido como 'a facada de Juiz de Fora'.", "fonte": "https://pt.wikipedia.org/wiki/Atentado_contra_Jair_Bolsonaro"}
+      {
+        "texto": "O nome curioso da cidade vem do cargo colonial de 'juiz de fora', magistrado nomeado pela Coroa Portuguesa para atuar onde não havia juiz de direito; um deles teria se hospedado em uma sesmaria às margens do Paraibuna, fazenda que ficou conhecida como Sesmaria do Juiz de Fora.",
+        "fonte": "https://pt.wikipedia.org/wiki/Juiz_de_Fora"
+      },
+      {
+        "texto": "Inaugurada em 5 de setembro de 1889 por iniciativa do industrial Bernardo Mascarenhas, a Usina Hidrelétrica de Marmelos Zero, no Rio Paraibuna, foi a primeira hidrelétrica de grande porte da América do Sul a fornecer energia para iluminação pública.",
+        "fonte": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Marmelos"
+      },
+      {
+        "texto": "Pelo pioneirismo industrial e suas chaminés do início do século XX, Juiz de Fora ficou conhecida como 'Manchester Mineira', alusão à cidade têxtil inglesa, sendo um dos principais polos fabris do Brasil na virada do século.",
+        "fonte": "https://www.conhecaminas.com/2022/05/juiz-de-fora-manchester-mineira.html"
+      },
+      {
+        "texto": "Inaugurada em 23 de junho de 1861 por Dom Pedro II, a Estrada União e Indústria, com 144 km ligando Petrópolis a Juiz de Fora, foi a primeira rodovia pavimentada (em macadame) do Brasil, construída por Mariano Procópio Ferreira Lage com mão de obra de imigrantes alemães.",
+        "fonte": "https://pt.wikipedia.org/wiki/Estrada_Uni%C3%A3o_e_Ind%C3%BAstria"
+      },
+      {
+        "texto": "Fundado em 1915 por Alfredo Ferreira Lage, o Museu Mariano Procópio foi o primeiro museu construído em Minas Gerais e o terceiro do Brasil, abrigando hoje cerca de 45 mil itens em meio a um parque assinado pelo paisagista francês Auguste Glaziou.",
+        "fonte": "https://en.wikipedia.org/wiki/Mariano_Proc%C3%B3pio_Museum"
+      },
+      {
+        "texto": "O Cristo Redentor do Morro do Imperador, inaugurado em 1906 pela construtora Pantaleone Arcuri & Spinelli, foi o primeiro monumento ao Cristo Redentor erguido no Brasil, antecedendo em 25 anos o famoso Cristo do Corcovado, no Rio de Janeiro.",
+        "fonte": "https://arquidiocesejuizdefora.org.br/morro-do-cristo-o-pioneirismo-de-juiz-de-fora-em-homenagear-o-redentor-no-brasil/"
+      },
+      {
+        "texto": "Em 1947, o juiz-forano Olavo Bastos Freire realizou na Rua Marechal Deodoro, 373, a primeira transmissão de imagens em movimento em circuito aberto da América Latina, captando um bonde pela janela de sua oficina três anos antes da estreia oficial da TV no Brasil.",
+        "fonte": "https://pt.wikipedia.org/wiki/Olavo_Bastos_Freire"
+      },
+      {
+        "texto": "A Universidade Federal de Juiz de Fora foi criada em 23 de dezembro de 1960 pelo presidente Juscelino Kubitschek, sendo a segunda universidade federal instalada no interior do Brasil, atrás apenas da de Santa Maria (RS).",
+        "fonte": "https://www2.ufjf.br/ufjf/sobre/historia/"
+      },
+      {
+        "texto": "Foi do quartel da 4ª Região Militar, em Juiz de Fora, que o general Olympio Mourão Filho deu início ao golpe de 31 de março de 1964, mobilizando tropas rumo ao Rio de Janeiro; até hoje a unidade se autodenomina 'Brigada 31 de Março'.",
+        "fonte": "https://atlas.fgv.br/marcos/revolucao-de-1964/mapas/juiz-de-fora-e-o-rio-no-golpe-de-1964"
+      },
+      {
+        "texto": "Em 6 de setembro de 2018, na Rua Halfeld, o então candidato à presidência Jair Bolsonaro foi esfaqueado no abdômen por Adélio Bispo durante ato de campanha, episódio que marcou as eleições daquele ano e ficou nacionalmente conhecido como 'a facada de Juiz de Fora'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Atentado_contra_Jair_Bolsonaro"
+      }
     ]
   },
   "3106705": {
     "id": 3106705,
     "nome": "Betim",
     "fatos": [
-      {"texto": "O nome da cidade vem do bandeirante e capitão-mor Joseph Rodrigues Betim, que recebeu uma carta de sesmaria da Coroa Portuguesa em 1711 no Vale do Ribeirão da Cachoeira; o sobrenome teria origem neerlandesa, ligado à família Bettinck.", "fonte": "https://www.betim.mg.gov.br/portal/servicos/1002/formacao-historica/"},
-      {"texto": "Antes de virar município, o povoado foi chamado de 'Arraial da Capela Nova de Betim' a partir de 1754 e tornou-se distrito em 1797, no governo de Bernardo José Lorena.", "fonte": "https://www.betim.mg.gov.br/portal/servicos/1002/formacao-historica/"},
-      {"texto": "Betim foi elevada a município em 17 de dezembro de 1938 pelo Decreto-Lei nº 148 do governador Benedito Valadares, incorporando temporariamente os territórios de Contagem e Ibirité, que só voltaram a ser autônomos em 1948.", "fonte": "https://pt.wikipedia.org/wiki/Betim"},
-      {"texto": "A Refinaria Gabriel Passos (REGAP), da Petrobras, foi inaugurada em 30 de março de 1968 com capacidade inicial de 45 mil barris diários, e hoje processa cerca de 157 mil barris por dia em uma área de 12,8 milhões de m² entre Betim, Sarzedo e Ibirité.", "fonte": "https://pt.wikipedia.org/wiki/Refinaria_Gabriel_Passos"},
-      {"texto": "O Polo Automotivo Stellantis (ex-Fiat) foi inaugurado em 9 de julho de 1976 e ocupa 2,2 milhões de m² em Betim, sendo um dos maiores complexos automotivos do mundo, com mais de 18 milhões de veículos produzidos e cerca de 16 mil empregados.", "fonte": "https://www.media.stellantis.com/br-pt/corporate/press/polo-automotivo-stellantis-de-betim-celebra-48-anos-com-legado-de-inovacao-na-industria-automotiva-a"},
-      {"texto": "Foi na fábrica de Betim que a Fiat lançou, em 5 de julho de 1979, o Fiat 147 a etanol, considerado o primeiro carro movido a álcool produzido em série no mundo, apelidado carinhosamente de 'Cachacinha' pelo cheiro do escapamento.", "fonte": "https://www.media.stellantis.com/br-pt/fiat/press/fiat-celebra-os-45-anos-do-primeiro-carro-movido-a-etanol-do-mundo"},
-      {"texto": "Com PIB per capita de cerca de R$ 127 mil, Betim figura entre os municípios mais ricos de Minas Gerais e do Brasil, ocupando a 4ª posição estadual em PIB total (R$ 33,1 bilhões em 2023), atrás apenas de Belo Horizonte, Uberlândia e Contagem.", "fonte": "https://www.em.com.br/emfoco/2026/04/27/mais-rica-que-muitas-capitais-brasileiras-a-cidade-mineira-com-pib-per-capita-de-r-127-mil-onde-sai-1-a-cada-4-carros-vendidos-no-brasil/"},
-      {"texto": "O time Sada Cruzeiro de vôlei masculino, tricampeão mundial em 2013, 2015 e 2016, nasceu em Betim em 2006 como 'Associação Esportiva Sada Vôlei', em parceria entre a prefeitura e o Grupo Sada, antes de firmar acordo com o Cruzeiro em 2009.", "fonte": "https://pt.wikipedia.org/wiki/Sada_Cruzeiro_V%C3%B4lei"},
-      {"texto": "O Ginásio Poliesportivo Divino Ferreira Braga, no bairro Angola, com capacidade para 6 mil torcedores, sediou o Mundial de Clubes de Vôlei Masculino da FIVB em 2013, 2015, 2016, 2019, 2021 e 2022.", "fonte": "https://pt.wikipedia.org/wiki/Gin%C3%A1sio_Poliesportivo_Divino_Ferreira_Braga"},
-      {"texto": "A Represa de Vargem das Flores, inaugurada em 1972 na divisa com Contagem (87% em Contagem e 13% em Betim), abastece cerca de 1 milhão de pessoas da Região Metropolitana e está protegida por uma APA criada pela Lei estadual nº 16.197, de 26 de junho de 2006.", "fonte": "https://portal.contagem.mg.gov.br/portal/noticias/0/3/82146/vargem-das-flores-conheca-a-historia-da-regiao-onde-a-natureza-convive-com-o-constante-desenvolvimento"}
+      {
+        "texto": "O nome da cidade vem do bandeirante e capitão-mor Joseph Rodrigues Betim, que recebeu uma carta de sesmaria da Coroa Portuguesa em 1711 no Vale do Ribeirão da Cachoeira; o sobrenome teria origem neerlandesa, ligado à família Bettinck.",
+        "fonte": "https://www.betim.mg.gov.br/portal/servicos/1002/formacao-historica/"
+      },
+      {
+        "texto": "Antes de virar município, o povoado foi chamado de 'Arraial da Capela Nova de Betim' a partir de 1754 e tornou-se distrito em 1797, no governo de Bernardo José Lorena.",
+        "fonte": "https://www.betim.mg.gov.br/portal/servicos/1002/formacao-historica/"
+      },
+      {
+        "texto": "Betim foi elevada a município em 17 de dezembro de 1938 pelo Decreto-Lei nº 148 do governador Benedito Valadares, incorporando temporariamente os territórios de Contagem e Ibirité, que só voltaram a ser autônomos em 1948.",
+        "fonte": "https://pt.wikipedia.org/wiki/Betim"
+      },
+      {
+        "texto": "A Refinaria Gabriel Passos (REGAP), da Petrobras, foi inaugurada em 30 de março de 1968 com capacidade inicial de 45 mil barris diários, e hoje processa cerca de 157 mil barris por dia em uma área de 12,8 milhões de m² entre Betim, Sarzedo e Ibirité.",
+        "fonte": "https://pt.wikipedia.org/wiki/Refinaria_Gabriel_Passos"
+      },
+      {
+        "texto": "O Polo Automotivo Stellantis (ex-Fiat) foi inaugurado em 9 de julho de 1976 e ocupa 2,2 milhões de m² em Betim, sendo um dos maiores complexos automotivos do mundo, com mais de 18 milhões de veículos produzidos e cerca de 16 mil empregados.",
+        "fonte": "https://www.media.stellantis.com/br-pt/corporate/press/polo-automotivo-stellantis-de-betim-celebra-48-anos-com-legado-de-inovacao-na-industria-automotiva-a"
+      },
+      {
+        "texto": "Foi na fábrica de Betim que a Fiat lançou, em 5 de julho de 1979, o Fiat 147 a etanol, considerado o primeiro carro movido a álcool produzido em série no mundo, apelidado carinhosamente de 'Cachacinha' pelo cheiro do escapamento.",
+        "fonte": "https://www.media.stellantis.com/br-pt/fiat/press/fiat-celebra-os-45-anos-do-primeiro-carro-movido-a-etanol-do-mundo"
+      },
+      {
+        "texto": "Com PIB per capita de cerca de R$ 127 mil, Betim figura entre os municípios mais ricos de Minas Gerais e do Brasil, ocupando a 4ª posição estadual em PIB total (R$ 33,1 bilhões em 2023), atrás apenas de Belo Horizonte, Uberlândia e Contagem.",
+        "fonte": "https://www.em.com.br/emfoco/2026/04/27/mais-rica-que-muitas-capitais-brasileiras-a-cidade-mineira-com-pib-per-capita-de-r-127-mil-onde-sai-1-a-cada-4-carros-vendidos-no-brasil/"
+      },
+      {
+        "texto": "O time Sada Cruzeiro de vôlei masculino, tricampeão mundial em 2013, 2015 e 2016, nasceu em Betim em 2006 como 'Associação Esportiva Sada Vôlei', em parceria entre a prefeitura e o Grupo Sada, antes de firmar acordo com o Cruzeiro em 2009.",
+        "fonte": "https://pt.wikipedia.org/wiki/Sada_Cruzeiro_V%C3%B4lei"
+      },
+      {
+        "texto": "O Ginásio Poliesportivo Divino Ferreira Braga, no bairro Angola, com capacidade para 6 mil torcedores, sediou o Mundial de Clubes de Vôlei Masculino da FIVB em 2013, 2015, 2016, 2019, 2021 e 2022.",
+        "fonte": "https://pt.wikipedia.org/wiki/Gin%C3%A1sio_Poliesportivo_Divino_Ferreira_Braga"
+      },
+      {
+        "texto": "A Represa de Vargem das Flores, inaugurada em 1972 na divisa com Contagem (87% em Contagem e 13% em Betim), abastece cerca de 1 milhão de pessoas da Região Metropolitana e está protegida por uma APA criada pela Lei estadual nº 16.197, de 26 de junho de 2006.",
+        "fonte": "https://portal.contagem.mg.gov.br/portal/noticias/0/3/82146/vargem-das-flores-conheca-a-historia-da-regiao-onde-a-natureza-convive-com-o-constante-desenvolvimento"
+      }
+    ]
+  },
+  "3143302": {
+    "id": 3143302,
+    "nome": "Montes Claros",
+    "fatos": [
+      {
+        "texto": "O antropólogo, escritor e político Darcy Ribeiro, fundador da UnB e idealizador dos CIEPs no Rio de Janeiro, nasceu em Montes Claros em 26 de outubro de 1922; o campus principal da UNIMONTES leva seu nome.",
+        "fonte": "https://www.bibliotecapublica.mg.gov.br/darcy-ribeiro-100-anos-de-historia/"
+      },
+      {
+        "texto": "As Festas de Agosto de Montes Claros existem desde 1839 e reúnem catopés, marujos e caboclinhos em homenagem a Nossa Senhora do Rosário e São Benedito, sendo reconhecidas como Patrimônio Imaterial de Minas Gerais.",
+        "fonte": "https://www.itaucultural.org.br/secoes/entrevista/catopes-caboclinhos-e-marujadas-conheca-as-tradicionais-festas-de-agosto"
+      },
+      {
+        "texto": "Os catopés de Montes Claros têm uma peculiaridade rara entre os congados brasileiros: a presença de reis e rainhas infantes nos cortejos, diferenciando-se das demais manifestações do gênero em Minas Gerais.",
+        "fonte": "https://www.itaucultural.org.br/secoes/entrevista/catopes-caboclinhos-e-marujadas-conheca-as-tradicionais-festas-de-agosto"
+      },
+      {
+        "texto": "A fábrica da Novo Nordisk em Montes Claros, inaugurada em 2007, é a maior planta de insulina da América Latina e produz cerca de 25% da insulina mundial da empresa, equivalente a aproximadamente 12% de toda a insulina consumida no planeta.",
+        "fonte": "https://www.em.com.br/app/noticia/economia/2023/09/08/internas_economia,1558945/industria-sediada-em-minas-produz-12-da-insulina-consumida-no-mundo.shtml"
+      },
+      {
+        "texto": "Em 2024 a Eurofarma inaugurou em Montes Claros o seu maior complexo industrial no mundo, com cerca de 515 mil m² de área total, investimento próximo a R$ 2 bilhões e previsão de gerar mais de 2.000 empregos diretos.",
+        "fonte": "https://eurofarma.com.br/sala-de-imprensa/novo-complexo-industrial-da-eurofarma-em-montes-claros-inicia-operacoes"
+      },
+      {
+        "texto": "Apesar de pertencer à Região Sudeste, Montes Claros faz parte da área de atuação da SUDENE e foi incluída no Polígono das Secas em 1960, junto a outros 41 municípios do norte mineiro, recebendo incentivos fiscais nordestinos.",
+        "fonte": "https://www.redalyc.org/journal/275/27543071008/html/"
+      },
+      {
+        "texto": "A Catedral Nossa Senhora Aparecida, de projeto belga em estilo neogótico iniciada na década de 1920 e concluída em 29 de janeiro de 1950, tem torre de 65,08 metros (equivalente a um prédio de 20 andares) e foi tombada em 1999.",
+        "fonte": "https://www.ipatrimonio.org/montes-claros-catedral-nossa-senhora-aparecida/"
+      },
+      {
+        "texto": "A Universidade Estadual de Montes Claros (UNIMONTES) tem origem na Fundação Norte Mineira de Ensino Superior, criada pela Lei Estadual nº 2.615 de 24 de maio de 1962, e foi transformada em universidade pelo Decreto nº 30.971, de 9 de março de 1990.",
+        "fonte": "https://unimontes.br/apresentacao/historico/"
+      },
+      {
+        "texto": "O Hospital Universitário Clemente de Faria, da UNIMONTES, é referência para cerca de 1,8 milhão de pessoas em todo o norte de Minas, realiza aproximadamente 550 mil procedimentos médico-hospitalares por ano e é Centro de Trauma Nível II.",
+        "fonte": "https://unimontes.br/unidades/hospital-universitario/"
+      },
+      {
+        "texto": "O nome do município remonta à sesmaria concedida em abril de 1707 a Antônio Gonçalves Figueira, que batizou a fazenda em homenagem à Batalha de Montes Claros (1665) entre Portugal e Espanha; o povoado nasceu como Arraial das Formigas, virou vila em 13 de outubro de 1831 e cidade pela Lei nº 802 de 3 de julho de 1857.",
+        "fonte": "https://pt.wikipedia.org/wiki/Montes_Claros_(Minas_Gerais)"
+      }
+    ]
+  },
+  "3170107": {
+    "id": 3170107,
+    "nome": "Uberaba",
+    "fatos": [
+      {
+        "texto": "Chico Xavier mudou-se de Pedro Leopoldo para Uberaba em 5 de janeiro de 1959 e fundou ali, em 18 de abril daquele ano, a Comunhão Espírita Cristã (CEC), psicografando ao longo da vida 451 livros até falecer na cidade em 30 de junho de 2002.",
+        "fonte": "https://pt.wikipedia.org/wiki/Chico_Xavier"
+      },
+      {
+        "texto": "A ExpoZebu, realizada anualmente em Uberaba desde 1935, é a maior feira mundial especializada em gado zebu e em 2025 celebrou 90 anos consolidando-se como o maior encontro global das raças zebuínas.",
+        "fonte": "https://pt.wikipedia.org/wiki/ExpoZebu"
+      },
+      {
+        "texto": "A Associação Brasileira dos Criadores de Zebu (ABCZ), sediada no Parque Fernando Costa em Uberaba, foi criada em 1934 como Sociedade Rural do Triângulo Mineiro e tem origem no Herd Book da Raça Zebu, iniciado na cidade em 1919.",
+        "fonte": "https://www.abcz.org.br/a-abcz/historia"
+      },
+      {
+        "texto": "O Geoparque Uberaba — Terra de Gigantes foi reconhecido pela UNESCO em março de 2024 como o primeiro geoparque mundial de Minas Gerais, abrigando 31 geossítios com fósseis do Cretáceo Superior.",
+        "fonte": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-03/geoparque-de-uberaba-em-minas-obtem-reconhecimento-da-unesco"
+      },
+      {
+        "texto": "O Uberabatitan ribeiroi, descoberto em 2004 durante a duplicação da BR-050 no sítio Serra da Galga, mede mais de 26 metros de comprimento e 10 de altura, sendo o maior dinossauro já encontrado no Brasil; seus fósseis estão no Museu dos Dinossauros de Peirópolis, distrito a 25 km de Uberaba.",
+        "fonte": "https://www.uftm.edu.br/museudosdinossauros"
+      },
+      {
+        "texto": "O Mercado Municipal de Uberaba, inaugurado em 2 de agosto de 1924 na gestão de Geraldino Rodrigues da Cunha, possui planta octogonal em estilo eclético inglês com cerca de 1.400 m² e foi tombado pelo patrimônio municipal pelo Decreto nº 1.903 de 19 de agosto de 1999.",
+        "fonte": "https://www.em.com.br/gerais/2024/08/6915338-conheca-o-patrimonio-historico-de-uberaba-que-completou-100-anos.html"
+      },
+      {
+        "texto": "A Catedral Metropolitana do Sagrado Coração de Jesus, em estilo neogótico com frontispício projetado por Ataliba Valle e executado por Manoel Barcalla Bergeiro em 1902, foi concluída em 30 de setembro de 1905 e elevada à condição de Catedral Metropolitana em 14 de abril de 1962, com a criação da Arquidiocese de Uberaba.",
+        "fonte": "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Uberaba"
+      },
+      {
+        "texto": "O Hospital de Câncer de Uberaba (Hospital Hélio Angotti), inaugurado em 1961 e mantido pela Associação de Combate ao Câncer do Brasil Central (ACCBC) fundada dez anos antes pelo Dr. Hélio Angotti, é referência nacional em alta complexidade oncológica e atende cerca de 700 mil pessoas em 27 municípios.",
+        "fonte": "https://www.helioangotti.com.br/hospital/"
+      },
+      {
+        "texto": "A Universidade de Uberaba (Uniube) tem origem em 1947 com a fundação da Sociedade Educacional Uberabense, enquanto a Universidade Federal do Triângulo Mineiro (UFTM) remonta a 1953, quando foi criada como Faculdade de Medicina do Triângulo Mineiro (FMTM), sendo federalizada como universidade em 2005.",
+        "fonte": "https://pt.wikipedia.org/wiki/Uberaba"
+      },
+      {
+        "texto": "A história de Uberaba será o enredo da escola de samba Tom Maior, do Grupo Especial paulista, no Carnaval de São Paulo de 2026, levando pela primeira vez a cidade do Triângulo Mineiro à passarela do Anhembi.",
+        "fonte": "https://www.em.com.br/gerais/2025/06/7169699-cidade-mineira-sera-homenageada-no-carnaval-de-sp-em-2026.html"
+      }
+    ]
+  },
+  "3154606": {
+    "id": 3154606,
+    "nome": "Ribeirão das Neves",
+    "fatos": [
+      {
+        "texto": "O território era originalmente conhecido como 'Matas de Bento Pires' até 1745, quando o mestre-de-campo Jacintho Vieira da Costa recebeu uma sesmaria do governador Gomes Freire de Andrade e ergueu uma capela dedicada a Nossa Senhora das Neves, dando origem à 'Fazenda das Neves'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_das_Neves"
+      },
+      {
+        "texto": "Ribeirão das Neves foi emancipada em 12 de dezembro de 1953, pela Lei nº 1.039, desmembrando-se de Pedro Leopoldo, depois de ter pertencido sucessivamente a Contagem (1923), Betim (1938) e Pedro Leopoldo (1943).",
+        "fonte": "https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_das_Neves"
+      },
+      {
+        "texto": "A cidade abriga a Penitenciária José Maria Alkmin, antiga Penitenciária Agrícola de Neves (PAN), inaugurada em 1938 pelo presidente Getúlio Vargas em uma área de 925 hectares com 300 mil pés de laranja, sendo considerada a primeira penitenciária autossustentável da América do Sul.",
+        "fonte": "https://www.em.com.br/app/noticia/gerais/2017/01/16/interna_gerais,839731/ribeirao-das-neves-ja-teve-presidio-modelo.shtml"
+      },
+      {
+        "texto": "Em 28 de janeiro de 2013 foi inaugurado em Ribeirão das Neves o Complexo Penitenciário Público-Privado, primeiro presídio em regime de Parceria Público-Privada (PPP) do Brasil, gerido pelo consórcio Gestores Prisionais Associados (GPA) e com capacidade para mais de 2.100 detentos.",
+        "fonte": "https://legado.seguranca.mg.gov.br/component/gmg/story/2102-governo-de-minas-inaugura-primeira-penitenciaria-do-brasil-feita-em-parceria-publico-privada"
+      },
+      {
+        "texto": "O município teve um dos crescimentos demográficos mais explosivos do Brasil: saltou de cerca de 4.000 habitantes em 1950 para 143.853 em 1991 e 296.317 em 2010, uma expansão da ordem de 3.000% entre 1970 e 2010, atingindo 329.794 habitantes no Censo 2022.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/ribeirao-das-neves/panorama"
+      },
+      {
+        "texto": "O cartunista Henrique de Souza Filho, o Henfil, criador do Fradim, da Graúna e do Bode Orelana e ícone da resistência à ditadura militar, nasceu em Ribeirão das Neves em 5 de fevereiro de 1944, sendo o quarto de oito irmãos.",
+        "fonte": "https://pt.wikipedia.org/wiki/Henrique_de_Souza_Filho"
+      },
+      {
+        "texto": "Wilson da Silva Piazza, tricampeão mundial pela Seleção Brasileira na Copa de 1970 e maior capitão da história do Cruzeiro, nasceu em Ribeirão das Neves em 25 de fevereiro de 1943.",
+        "fonte": "https://lendasdofutebol.com/jogador/wilson-piazza/"
+      },
+      {
+        "texto": "O distrito de Justinópolis, que abriga 173.436 dos habitantes (cerca de 51% da população municipal em 2022), foi criado em 30 de agosto de 1911 com o nome de Campanhã e rebatizado em homenagem ao fazendeiro e político republicano Antônio Justino Rocha.",
+        "fonte": "https://pt.wikipedia.org/wiki/Justin%C3%B3polis_(Ribeir%C3%A3o_das_Neves)"
+      },
+      {
+        "texto": "A Festa de Agosto, em homenagem à padroeira Nossa Senhora das Neves no dia 5 de agosto, é celebrada há mais de 80 anos com novena iniciada em 27 de julho, carreata e shows de artistas nacionais como Zezé di Camargo e Dilsinho.",
+        "fonte": "https://arquidiocesebh.org.br/noticias/missa-solene-em-honra-a-n-s-das-neves-neste-sabado-5-de-agosto/"
+      },
+      {
+        "texto": "A Cidade dos Meninos São Vicente de Paulo, fundação assistencial mantida pelo Sistema Divina Providência, ocupa 540.000 m² em Ribeirão das Neves e oferece educação integral, moradia e formação profissional, abrigando ainda duas escolas estaduais que atendem cerca de 2.790 alunos.",
+        "fonte": "https://pt.wikipedia.org/wiki/Cidade_dos_Meninos_S%C3%A3o_Vicente_de_Paulo"
+      }
+    ]
+  },
+  "3127701": {
+    "id": 3127701,
+    "nome": "Governador Valadares",
+    "fatos": [
+      {
+        "texto": "O município, originário do antigo distrito de Figueira do Rio Doce, foi emancipado em 30 de janeiro de 1938 e batizado em homenagem a Benedito Valadares Ribeiro, então interventor (governador) de Minas Gerais entre 1933 e 1945.",
+        "fonte": "https://pt.wikipedia.org/wiki/Governador_Valadares"
+      },
+      {
+        "texto": "O Pico da Ibituruna, com 1.123 metros de altitude e cerca de 990 metros de desnível em relação ao rio Doce, é considerado a Capital Mundial do Voo Livre por suas térmicas, e seu nome vem do tupi 'ybytyra' (montanha) e 'un' (negra), ou seja, 'montanha negra'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Pico_da_Ibituruna"
+      },
+      {
+        "texto": "Governador Valadares sediou o 1º Mundial de asa-delta realizado no Brasil em 1989 e a Copa do Mundo de Parapente (PWC) em 1994, voltando a receber a 5ª etapa da PWC em abril de 2026, com 91 pilotos de 25 países.",
+        "fonte": "https://drd.com.br/5a-etapa-da-copa-do-mundo-de-parapente-e-sucesso-e-consolida-valadares-como-referencia-no-voo-livre/"
+      },
+      {
+        "texto": "Durante a Segunda Guerra Mundial, empresas norte-americanas instalaram bases de extração de mica na região - mineral estratégico usado como isolante em aviões de combate e submarinos -, atraindo engenheiros como Richard Pitt Simpson, que fundou a primeira escola de inglês da cidade e plantou a semente da diáspora rumo aos EUA.",
+        "fonte": "https://revistaoeste.com/oestegeral/2026/03/03/a-cidade-mineira-que-exportou-emigrantes-para-os-eua-e-virou-capital-mundial-do-voo-livre/"
+      },
+      {
+        "texto": "Apelidada de 'Valadólares', a cidade tornou-se a maior exportadora brasileira de imigrantes para os EUA, com cerca de 27 mil emigrados entre 1990 e o início dos anos 2000, concentrados em Massachusetts (Boston, Somerville, Framingham), onde a comunidade ficou conhecida como 'Governador Valadares Town'.",
+        "fonte": "https://institutodiasporabrasil.org/2022/08/17/brasileiros-em-massachusetts/"
+      },
+      {
+        "texto": "Em 5 de novembro de 2015, o rompimento da barragem de Fundão da Samarco em Mariana liberou cerca de 62 milhões de m³ de rejeitos no rio Doce e, dias depois, obrigou Governador Valadares - a 300 km da barragem - a interromper o abastecimento de água de seus 280 mil habitantes, sendo socorrida por 38 caminhões-pipa.",
+        "fonte": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-11/cidades-suspendem-abastecimento-apos-lama-das-barragens-atingir-o-rio-doce"
+      },
+      {
+        "texto": "A pedra preciosa lapidada é o principal produto da pauta de exportação municipal, respondendo por cerca de 80% das vendas externas e mais de US$ 12 milhões anuais, fruto da tradição mineradora do Vale do Rio Doce.",
+        "fonte": "https://pt.wikipedia.org/wiki/Governador_Valadares"
+      },
+      {
+        "texto": "O empresário Eike Fuhrken Batista, que chegou a ser o homem mais rico do Brasil, nasceu em Governador Valadares em 3 de novembro de 1956, filho de Eliezer Batista, ex-presidente da Vale do Rio Doce e ex-ministro de Minas e Energia.",
+        "fonte": "https://www.infoescola.com/biografias/eike-batista/"
+      },
+      {
+        "texto": "A cantora Wanderléa Charlup Boere Salim, conhecida como 'A Ternurinha' e Rainha da Jovem Guarda, nasceu em Governador Valadares em 5 de junho de 1946 e dividiu o palco do programa Jovem Guarda da TV Record (1965-1968) com Roberto Carlos e Erasmo Carlos.",
+        "fonte": "https://pt.wikipedia.org/wiki/Wanderl%C3%A9a"
+      },
+      {
+        "texto": "O Esporte Clube Democrata, apelidado de 'Pantera', foi fundado em 13 de fevereiro de 1932 ainda na então Figueira do Rio Doce, conquistou a Taça Minas Gerais de 1981 e foi vice-campeão mineiro em 1991, à frente de Cruzeiro e América.",
+        "fonte": "https://en.wikipedia.org/wiki/Esporte_Clube_Democrata"
+      }
+    ]
+  },
+  "3122306": {
+    "id": 3122306,
+    "nome": "Divinópolis",
+    "fatos": [
+      {
+        "texto": "Fundada em 13 de janeiro de 1767 e emancipada em 30 de agosto de 1911 com o nome de Vila Henrique Galvão, a cidade foi rebatizada como Vila Divinópolis em 3 de setembro de 1912 (Lei 590), em homenagem ao Divino Espírito Santo, um dos padroeiros do antigo arraial do Espírito Santo do Itapecerica.",
+        "fonte": "https://www.divinopolis.mg.gov.br/portal/servicos/1004/historia/"
+      },
+      {
+        "texto": "A poetisa Adélia Prado, nascida em Divinópolis em 13 de dezembro de 1935 e revelada nacionalmente em 1975 com 'Bagagem' por intermédio de Carlos Drummond de Andrade, recebeu em 2024 o Prêmio Camões e o Prêmio Machado de Assis, tornando-se a divinopolitana de maior projeção literária internacional.",
+        "fonte": "https://www.gov.br/cultura/pt-br/assuntos/noticias/adelia-prado-vence-o-premio-camoes-2024"
+      },
+      {
+        "texto": "A chegada da Estrada de Ferro Oeste de Minas em 30 de abril de 1890, no antigo Arraial do Espírito Santo do Itapecerica, transformou o povoado em entroncamento ferroviário e desencadeou o salto industrial que fez de Divinópolis o principal polo do Centro-Oeste mineiro.",
+        "fonte": "https://pt.wikipedia.org/wiki/Divin%C3%B3polis_(Minas_Gerais)"
+      },
+      {
+        "texto": "Conhecida como 'Capital da Moda' de Minas Gerais e 'Princesa do Oeste', Divinópolis reúne mais de 2.550 empresas do setor de confecções, sendo cerca de 500 indústrias formais que produzem aproximadamente 19 milhões de peças por ano, perdendo no estado apenas para Belo Horizonte.",
+        "fonte": "https://terrabrasilnoticias.com/2026/03/a-capital-da-moda-de-minas-reune-2-500-confeccoes-e-um-rodeio-de-arena-lotada/"
+      },
+      {
+        "texto": "Com 242.328 habitantes (estimativa IBGE de 2024) e área de 708,115 km², Divinópolis é o 10º município mais populoso de Minas Gerais e dista cerca de 110 km de Belo Horizonte.",
+        "fonte": "https://pt.wikipedia.org/wiki/Divin%C3%B3polis_(Minas_Gerais)"
+      },
+      {
+        "texto": "O Aeroporto Brigadeiro Cabral (DIQ/SNDV), principal terminal aéreo do Centro-Oeste mineiro, foi inaugurado em 1º de junho de 1948, no aniversário de 36 anos da cidade, e opera voos regulares da Azul desde 2015, com pista de 1.540 metros a 537,97 m de altitude.",
+        "fonte": "https://pt.wikipedia.org/wiki/Aeroporto_de_Divin%C3%B3polis"
+      },
+      {
+        "texto": "O território é cortado pelo Rio Itapecerica, que atravessa transversalmente a malha urbana por 18 quilômetros até desaguar no Rio Pará, ambos afluentes do Rio São Francisco — geografia hídrica que batizou o antigo Arraial do Espírito Santo do Itapecerica.",
+        "fonte": "https://todepassagem.clickbus.com.br/guia-de-destinos/divinopolis-mg/"
+      },
+      {
+        "texto": "O Guarani Esporte Clube, principal time de futebol da cidade, foi fundado em 20 de setembro de 1930 por José de Oliveira, manda jogos no Estádio Waldemar Teixeira de Faria ('Farião') e teve sua melhor campanha nacional em 1981, quando ficou em 4º lugar na Série C do Campeonato Brasileiro.",
+        "fonte": "https://pt.wikipedia.org/wiki/Guarani_Esporte_Clube_(Minas_Gerais)"
+      },
+      {
+        "texto": "A Diocese de Divinópolis foi criada em 11 de julho de 1958 pela bula 'Qui a Christo' do Papa Pio XII e instalada em 17 de maio de 1959, tendo como sede a Catedral do Divino Espírito Santo, no centro da cidade.",
+        "fonte": "https://pt.wikipedia.org/wiki/Diocese_de_Divin%C3%B3polis"
+      },
+      {
+        "texto": "A Universidade do Estado de Minas Gerais mantém em Divinópolis a Unidade UEMG, instalada na Avenida Paraná, 3.001, no bairro Jardim Belvedere, complementando a oferta de ensino superior público da cidade ao lado dos campi da UFSJ e do CEFET-MG.",
+        "fonte": "https://www.uemg.br/divinopolis"
+      }
     ]
   }
 }
