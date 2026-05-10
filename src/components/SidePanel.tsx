@@ -5,12 +5,11 @@ import { REGIONS, REGION_ORDER } from '../data/regions'
 import { STATES_BY_SIGLA, STATES_GEO } from '../data/states'
 import { MUNICIPIOS_BY_UF, MUNICIPIOS_BY_ID } from '../data/municipios'
 import {
-  fetchMunicipioInfo,
   fetchStateStats,
-  type MunicipioInfo,
   type MunicipioStats,
 } from '../data/ibge'
 import { getIDHM } from '../data/idhm'
+import { getCuriosidades, type Fato } from '../data/curiosidades'
 
 type StatsMap = Map<number, MunicipioStats>
 
@@ -586,8 +585,6 @@ function SortHead({
 
 function CidadePanel({ municipioId }: { municipioId: number }) {
   const m = MUNICIPIOS_BY_ID[municipioId]
-  const [info, setInfo] = useState<MunicipioInfo | null>(null)
-
   const ufId = m
     ? STATES_BY_SIGLA[m.uf]?.properties.id ?? null
     : null
@@ -595,16 +592,6 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
   const munStats = stats?.get(municipioId)
   const idhm = getIDHM(municipioId)
 
-  useEffect(() => {
-    let alive = true
-    setInfo(null)
-    fetchMunicipioInfo(municipioId).then((d) => {
-      if (alive) setInfo(d)
-    })
-    return () => {
-      alive = false
-    }
-  }, [municipioId])
   if (!m) return null
   const idhmTier =
     idhm == null
@@ -630,7 +617,10 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
       >
         {m.nome}
       </h3>
-      <div className="grid grid-cols-3 gap-3 mt-5">
+
+      <Curiosidade municipioId={municipioId} />
+
+      <div className="grid grid-cols-3 gap-3 mt-6">
         <Stat
           label="população"
           value={fmtPop(munStats?.populacao)}
@@ -667,14 +657,102 @@ function CidadePanel({ municipioId }: { municipioId: number }) {
           sub={munStats?.pibAno ? `IBGE ${munStats.pibAno}` : 'IBGE'}
         />
       </div>
-      <dl className="grid grid-cols-2 gap-x-4 gap-y-2 mt-6 text-sm">
-        <Field k="UF" v={m.uf} />
-        <Field k="Região" v={REGIONS[m.regiao].nome} />
-        <Field k="Microrregião" v={info?.microrregiao} />
-        <Field k="Mesorregião" v={info?.mesorregiao} />
-        <Field k="Região imediata" v={info?.regiaoImediata} />
-        <Field k="Região intermediária" v={info?.regiaoIntermediaria} />
-      </dl>
+    </div>
+  )
+}
+
+function Curiosidade({ municipioId }: { municipioId: number }) {
+  const fatos = useMemo(() => getCuriosidades(municipioId), [municipioId])
+  const [idx, setIdx] = useState(0)
+
+  useEffect(() => {
+    setIdx(0)
+  }, [municipioId])
+
+  if (fatos.length === 0) {
+    return (
+      <div className="mt-6 border-y border-ink-15 py-6">
+        <div className="num text-[10px] tracking-[0.3em] uppercase text-ink-50">
+          curiosidade
+        </div>
+        <p
+          className="mt-3 font-display italic text-xl text-ink-30 leading-snug"
+          style={{ fontVariationSettings: '"opsz" 36, "SOFT" 80' }}
+        >
+          ainda sem curiosidades — em breve.
+        </p>
+      </div>
+    )
+  }
+
+  const fato: Fato = fatos[idx]
+  const next = () => setIdx((i) => (i + 1) % fatos.length)
+  const prev = () => setIdx((i) => (i - 1 + fatos.length) % fatos.length)
+
+  return (
+    <div className="mt-6 border-y border-ink-15 py-6 relative">
+      <div className="flex items-baseline justify-between">
+        <div className="num text-[10px] tracking-[0.3em] uppercase text-ink-50">
+          curiosidade
+        </div>
+        <div className="num text-[10px] tabular-nums text-ink-50">
+          {String(idx + 1).padStart(2, '0')}{' '}
+          <span className="text-ink-30">/ {String(fatos.length).padStart(2, '0')}</span>
+        </div>
+      </div>
+      <AnimatePresence mode="wait">
+        <motion.blockquote
+          key={`${municipioId}-${idx}`}
+          initial={{ opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -6 }}
+          transition={{ duration: 0.32, ease: [0.2, 0, 0, 1] }}
+          className="mt-3 relative"
+        >
+          <span
+            aria-hidden
+            className="absolute -top-3 -left-1 font-display italic text-6xl leading-none text-terra/30 select-none"
+            style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100' }}
+          >
+            “
+          </span>
+          <p
+            className="font-display text-lg leading-snug text-ink pl-5"
+            style={{ fontVariationSettings: '"opsz" 24, "SOFT" 50' }}
+          >
+            {fato.texto}
+          </p>
+        </motion.blockquote>
+      </AnimatePresence>
+      <div className="mt-4 flex items-center justify-between">
+        <a
+          href={fato.fonte}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="num text-[10px] tracking-[0.18em] uppercase text-ink-50 hover:text-ink underline-offset-4 hover:underline truncate max-w-[60%]"
+          title={fato.fonte}
+        >
+          fonte ↗
+        </a>
+        <div className="flex items-center gap-1">
+          <button
+            type="button"
+            onClick={prev}
+            className="w-7 h-7 grid place-items-center text-ink-50 hover:text-ink hover:bg-paper transition-colors num text-sm"
+            aria-label="curiosidade anterior"
+          >
+            ←
+          </button>
+          <button
+            type="button"
+            onClick={next}
+            className="w-7 h-7 grid place-items-center text-ink-50 hover:text-ink hover:bg-paper transition-colors num text-sm"
+            aria-label="próxima curiosidade"
+          >
+            →
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
@@ -709,19 +787,6 @@ function Stat({
           {sub}
         </div>
       )}
-    </div>
-  )
-}
-
-function Field({ k, v }: { k: string; v?: string }) {
-  return (
-    <div>
-      <dt className="num text-[9px] uppercase tracking-[0.22em] text-ink-50">
-        {k}
-      </dt>
-      <dd className="font-display text-base text-ink mt-0.5" style={{ fontVariationSettings: '"opsz" 18' }}>
-        {v ?? <span className="text-ink-30">—</span>}
-      </dd>
     </div>
   )
 }
