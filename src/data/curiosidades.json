@@ -6668,5 +6668,235 @@
         "fonte": "https://www.tripadvisor.com/Attraction_Review-g2349694-d4708390-Reviews-Predio_do_Antigo_Colegio_Sao_Jose-Nepomuceno_State_of_Minas_Gerais.html"
       }
     ]
+  },
+  "3109303": {
+    "id": 3109303,
+    "nome": "Buritis",
+    "fatos": [
+      {
+        "texto": "O nome do município vem da palmeira buriti, que crescia em abundância nas áreas alagadas brejosas da chamada Veredinha, ao redor da qual surgiu o povoado.",
+        "fonte": "https://pt.wikipedia.org/wiki/Buritis_(Minas_Gerais)"
+      },
+      {
+        "texto": "A região começou a ser ocupada por brancos em 1670, quando o bandeirante Lourenço Castanho Taquias atravessou a área seguindo o rastro de Bartolomeu Bueno da Silva.",
+        "fonte": "https://www.buritis.mg.gov.br/portal/servicos/1001/historia/"
+      },
+      {
+        "texto": "O povoado surgiu em 1716, quando as irmãs Joaquina e Luiza Aldonso, vindas de Paracatu, subiram o rio Urucuia em busca de ouro e fundaram ali o porto de Sant'Anna.",
+        "fonte": "https://www.buritis.mg.gov.br/portal/servicos/1001/historia/"
+      },
+      {
+        "texto": "Buritis foi emancipada politicamente pela lei estadual nº 2.764, de 30 de dezembro de 1962, sendo instalada como município em 1º de março de 1963.",
+        "fonte": "https://pt.wikipedia.org/wiki/Buritis_(Minas_Gerais)"
+      },
+      {
+        "texto": "O município é um dos três únicos de Minas Gerais que integram a RIDE (Região Integrada de Desenvolvimento do Distrito Federal e Entorno), ao lado de Unaí e Cabeceira Grande, ficando a apenas 213 km de Brasília.",
+        "fonte": "https://pt.wikipedia.org/wiki/Buritis_(Minas_Gerais)"
+      },
+      {
+        "texto": "Buritis figura entre os maiores produtores de grãos de Minas Gerais (apontado como terceiro ou quarto maior, dependendo da fonte), com colheita de cerca de 410 mil toneladas em 2018.",
+        "fonte": "https://melhoresdestinosdobrasil.com.br/buritis-minas-gerais/"
+      },
+      {
+        "texto": "O território possui mais de 40 cachoeiras catalogadas, entre elas a Cachoeira do Urucuia, a 25 km da cidade, e a do córrego Passa Três, com cerca de 70 metros de altura.",
+        "fonte": "https://melhoresdestinosdobrasil.com.br/buritis-minas-gerais/"
+      },
+      {
+        "texto": "O ponto culminante do município, com 1.069 metros de altitude, fica na Serra do Bonito, próximo às cabeceiras do córrego Palmeira.",
+        "fonte": "https://pt.wikipedia.org/wiki/Buritis_(Minas_Gerais)"
+      },
+      {
+        "texto": "O Rio Urucuia, que corta o município, foi imortalizado na obra Grande Sertão: Veredas, de João Guimarães Rosa, ligando Buritis à geografia literária do sertão mineiro.",
+        "fonte": "https://melhoresdestinosdobrasil.com.br/buritis-minas-gerais/"
+      },
+      {
+        "texto": "Entre as tradições culturais do município destaca-se a Festa do Carro de Boi, que celebra o universo rural e integra o calendário festivo oficial de Buritis há mais de nove edições.",
+        "fonte": "https://www.buritis.mg.gov.br/portal/noticias/0/3/1412/cultura-e-tradicao-9-festa-do-carro-de-boi/"
+      }
+    ]
+  },
+  "3162005": {
+    "id": 3162005,
+    "nome": "São Gonçalo do Sapucaí",
+    "fatos": [
+      {
+        "texto": "Bárbara Heliodora, considerada a 'Heroína da Inconfidência Mineira' e tida por muitos como a primeira poetisa brasileira, viveu em São Gonçalo do Sapucaí entre 1791 e 1819, onde administrou minas e fazendas após o exílio do marido Alvarenga Peixoto. Ela morreu na cidade em 24 de maio de 1819 e foi sepultada na antiga Igreja Matriz.",
+        "fonte": "https://pt.wikipedia.org/wiki/B%C3%A1rbara_Heliodora"
+      },
+      {
+        "texto": "Lúcio de Mendonça, considerado o verdadeiro fundador da Academia Brasileira de Letras (1897) e chamado de 'Pai da Academia', foi criado em São Gonçalo do Sapucaí desde os quatro anos, onde aprendeu a ler sozinho, sem professores, após a morte do pai.",
+        "fonte": "https://www.academia.org.br/academicos/lucio-de-mendonca/biografia"
+      },
+      {
+        "texto": "Raimundo Correia, um dos integrantes da chamada 'Trindade Parnasiana' ao lado de Olavo Bilac e Alberto de Oliveira, foi nomeado em 1889 o primeiro Juiz de Direito da recém-criada comarca de São Gonçalo do Sapucaí.",
+        "fonte": "https://www.academia.org.br/academicos/raimundo-correia/biografia"
+      },
+      {
+        "texto": "A Ponte Pênsil Afonso Pena, sobre o Rio Sapucaí, foi fabricada na Alemanha e inaugurada em 27 de maio de 1911, possuindo 132 metros de extensão sustentados por 18 cabos de aço de aproximadamente uma tonelada cada. Suas peças foram trazidas do Rio de Janeiro por barcos a vapor que navegaram o Sapucaí e por carros de boi.",
+        "fonte": "https://pt.wikipedia.org/wiki/Ponte_P%C3%AAnsil_Afonso_Pena"
+      },
+      {
+        "texto": "O nome 'Sapucaí' vem do tupi e significa 'rio que grita', referência ao forte estrondo que os frutos secos das sapucaias faziam ao estourar no chão, fenômeno observado pelos indígenas que habitavam a região às margens do rio.",
+        "fonte": "https://camarasgs.mg.gov.br/municipio/historia"
+      },
+      {
+        "texto": "A Festa do Rosário de São Gonçalo do Sapucaí, com registros documentais desde 1880, é, apesar do nome, dedicada ao Espírito Santo, começa 40 dias após a Páscoa e culmina em Pentecostes, mantendo viva a tradição dos ternos de Congadas que remontam às origens escravas da cidade.",
+        "fonte": "https://pt.wikipedia.org/wiki/Festa_do_Ros%C3%A1rio_de_S%C3%A3o_Gon%C3%A7alo_do_Sapuca%C3%AD"
+      },
+      {
+        "texto": "A Igreja do Rosário, erguida no fim do século XVIII por africanos escravizados, abriga imagens originais de santos de devoção dos negros como Santo Elesbão, São Benedito e Santa Ifigênia, e tem em seu sino a inscrição 'Viva Nossa Senhora - 1808'.",
+        "fonte": "https://pt.wikipedia.org/wiki/Igreja_do_Ros%C3%A1rio_(S%C3%A3o_Gon%C3%A7alo_do_Sapuca%C3%AD)"
+      },
+      {
+        "texto": "O povoado nasceu no início do século XVIII em meio ao Ciclo do Ouro, nas chamadas minas do 'Ouro Fala' e 'Ouro Ronca', e foi elevado a arraial em 2 de março de 1743 sob o nome de São Gonçalo da Campanha do Rio Verde, conquistando emancipação como município em 27 de julho de 1889.",
+        "fonte": "https://camarasgs.mg.gov.br/municipio/historia"
+      },
+      {
+        "texto": "A Casa de Bárbara Heliodora, construção colonial de 1770 onde a poetisa residiu durante e após os eventos da Inconfidência, ainda existe na praça que leva seu nome no centro da cidade, e abriga hoje o Museu Histórico Bárbara Heliodora.",
+        "fonte": "https://sermineirouai.blogspot.com/2011/02/casa-de-barbara-heliodora-construcao-de.html"
+      },
+      {
+        "texto": "O território original da comarca de São Gonçalo do Sapucaí era tão extenso que dele se desmembraram quatro municípios sul-mineiros independentes: Cordislândia, Turvolândia, Heliodora (cujo nome homenageia Bárbara Heliodora) e Careaçu.",
+        "fonte": "https://camarasgs.mg.gov.br/municipio/historia"
+      }
+    ]
+  },
+  "3143401": {
+    "id": 3143401,
+    "nome": "Monte Sião",
+    "fatos": [
+      {
+        "texto": "Monte Sião recebeu oficialmente o título de Capital Nacional da Moda Tricô pela Lei 14.699, sancionada pelo presidente Lula em 19 de outubro de 2023, consagrando sua hegemonia nacional no setor de malharias.",
+        "fonte": "https://www12.senado.leg.br/noticias/materias/2023/10/20/agora-e-lei-monte-siao-capital-nacional-da-moda-trico"
+      },
+      {
+        "texto": "O nome da cidade foi sugerido em 1850 pelos missionários franciscanos Frei Eugênio Maria de Gênova, Frei Arcanjo e Frei Francisco, que viram no Morro Pelado uma semelhança com o Monte Sião de Jerusalém.",
+        "fonte": "https://guaranyecoresort.com.br/por-que-o-nome-monte-siao/"
+      },
+      {
+        "texto": "O município concentra cerca de 1.200 pequenas indústrias e aproximadamente 1.500 lojas de tricô, atividade que responde por cerca de 90% da arrecadação municipal.",
+        "fonte": "https://www.camara.leg.br/noticias/1009147-monte-siao-em-minas-gerais-ganha-titulo-de-capital-nacional-da-moda-trico/"
+      },
+      {
+        "texto": "Monte Sião abriga a única fábrica do Brasil que produz, de forma artesanal, a tradicional porcelana azul e branca pintada à mão, inspirada na arte portuguesa, queimada em forno a lenha a 1.300 °C.",
+        "fonte": "https://www.montesiao.mg.gov.br/cidade"
+      },
+      {
+        "texto": "As fontes Virtuosa e Virtuosinha, no município, têm fama pelas propriedades medicinais de suas águas, especialmente para o tratamento de enfermidades de pele.",
+        "fonte": "https://pt.wikipedia.org/wiki/Monte_Si%C3%A3o_(Minas_Gerais)"
+      },
+      {
+        "texto": "A imigração italiana começou em 1887 e chegou a reunir cerca de 300 famílias na localidade, transformando Monte Sião em uma das maiores colônias italianas do sul de Minas Gerais ao lado de Ouro Fino e Jacutinga.",
+        "fonte": "https://italianismo.com.br/sul-de-minas-tera-rota-do-imigrante-italiano/"
+      },
+      {
+        "texto": "A emancipação política do município, em 3 de novembro de 1936, foi conquistada após quatro anos de campanha liderada pelo farmacêutico Mário Zucato, hoje homenageado na praça central da cidade.",
+        "fonte": "https://www.montesiao.mg.gov.br/cidade"
+      },
+      {
+        "texto": "O Santuário de Nossa Senhora da Medalha Milagrosa, cuja construção atual começou em 1934 sob o padre José Eugênio de Faria, possui arquitetura inspirada na arte romana do século XII e altar entalhado inteiramente em madeira.",
+        "fonte": "https://www.ipatrimonio.org/monte-siao-santuario-de-nossa-senhora-da-medalha-milagrosa/"
+      },
+      {
+        "texto": "A Festa do Peão de Monte Sião, considerada o maior rodeio do sul de Minas Gerais, acontece todo mês de março durante quatro dias no Parque do Pavilhão de Exposições.",
+        "fonte": "https://www.tricotmontesiaomg.com.br/2026/04/festas-do-trico-em-monte-siao-tradicao.html"
+      },
+      {
+        "texto": "Situada na divisa de Minas com São Paulo a cerca de 918 metros de altitude, Monte Sião integra o roteiro turístico do Circuito das Águas Paulista, ficando a apenas 10 km de Águas de Lindóia e 29 km de Serra Negra.",
+        "fonte": "https://www.melhoresdestinos.com.br/monte-siao.html"
+      }
+    ]
+  },
+  "3162401": {
+    "id": 3162401,
+    "nome": "São João da Ponte",
+    "fatos": [
+      {
+        "texto": "O município foi fundado por volta de 1840 por Dona Joana Verediana Cordeiro, mulher considerada guerreira que veio se abrigar no vilarejo e venerava uma imagem de São João Batista numa casinha às margens do córrego Salobo, dando origem à povoação.",
+        "fonte": "https://redescobrindoosvales.tur.br/norte/microrregiao-de-montes-claros/sao-joao-da-ponte/historia.php"
+      },
+      {
+        "texto": "O nome original da localidade era São João da Ponte Salobo, em referência à ponte construída entre 1850 e 1865 sobre o córrego Salobo, junto à qual foi erguida a capela em homenagem a São João Batista.",
+        "fonte": "https://redescobrindoosvales.tur.br/norte/microrregiao-de-montes-claros/sao-joao-da-ponte/historia.php"
+      },
+      {
+        "texto": "O município abriga o quilombo Brejo dos Crioulos, formado desde meados do século XVII por negros fugidos da escravidão que se fixaram às margens da Lagoa Peroba, área de brejo então evitada por brancos e indígenas devido à proliferação da maleita.",
+        "fonte": "https://pt.wikipedia.org/wiki/Brejo_dos_Crioulos"
+      },
+      {
+        "texto": "Brejo dos Crioulos é uma das maiores comunidades quilombolas de Minas Gerais, com 630 famílias e cerca de 1.930 pessoas (Censo 2022) distribuídas entre São João da Ponte, Varzelândia e Verdelândia.",
+        "fonte": "https://pt.wikipedia.org/wiki/Brejo_dos_Crioulos"
+      },
+      {
+        "texto": "São João da Ponte possui sete quilombos certificados pela Fundação Cultural Palmares, entre eles o Quilombo Sete Ladeiras (Portaria nº 28/2005) e os quilombos Vereda Viana e Agreste (Portaria nº 29/2006).",
+        "fonte": "https://www.ipatrimonio.org/sao-joao-da-ponte-quilombo-sete-ladeiras/"
+      },
+      {
+        "texto": "O território do município está numa zona de transição entre os biomas Caatinga (31%) e Cerrado (69%) e integra o Polígono das Secas e a área de atuação da Sudene no semiárido brasileiro.",
+        "fonte": "https://en.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_da_Ponte"
+      },
+      {
+        "texto": "O distrito de Lontra, que pertencia a São João da Ponte desde 1953, emancipou-se em 1992 levando consigo o povoado de Umbuzeiro, reduzindo significativamente o território original do município.",
+        "fonte": "https://redescobrindoosvales.tur.br/norte/microrregiao-de-montes-claros/sao-joao-da-ponte/historia.php"
+      },
+      {
+        "texto": "O CarnaBorah, principal carnaval do município, surgiu em 1989 a partir de uma brincadeira entre os amigos Acácio, Nelsinho, Dely e Paulo às margens da Lagoa de Boa Vista, e seu nome combina 'Carna' com 'Borah', termo de origem indígena usado para identificar os moradores do distrito de Santo Antônio da Boa Vista.",
+        "fonte": "https://geraisnews.com.br/2026/02/12/carnaborah-2026-promete-tres-dias-de-festa-tradicao-e-muita-animacao-em-sao-joao-da-ponte/"
+      },
+      {
+        "texto": "O município preserva pelo menos três ternos de pastorinhas e folia de reis registrados como patrimônio cultural do estado de Minas Gerais (Três Reis Magos, Pastorinhas de Poções e Riachinho), todos integrantes do acervo Folias de Minas.",
+        "fonte": "https://www.ipatrimonio.org/sao-joao-da-ponte-terno-de-pastorinhas-tres-reis-magos/"
+      },
+      {
+        "texto": "São João da Ponte foi elevado à categoria de município pelo Decreto-Lei Estadual nº 1058, de 31 de dezembro de 1943, sendo desmembrado de Brasília de Minas com quatro distritos transferidos.",
+        "fonte": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_da_Ponte"
+      }
+    ]
+  },
+  "3135803": {
+    "id": 3135803,
+    "nome": "Jequitinhonha",
+    "fatos": [
+      {
+        "texto": "O povoado que originou a cidade foi fundado em 29 de setembro de 1811 pelo Alferes Julião Fernandes Leão, sob ordens da Coroa Portuguesa para guarnecer o Rio Jequitinhonha, suposto diamantífero, e impedir o contrabando fluvial de ouro e diamantes.",
+        "fonte": "https://www.jequitinhonha.mg.leg.br/institucional/noticias/historia-do-municipio-de-jequitinhonha"
+      },
+      {
+        "texto": "O nome Jequitinhonha é de origem indígena e significa 'rio largo, cheio de peixes'; seus habitantes primitivos foram os índios Machacalis (Maxakali) ou Patascos, descendentes dos Tapuias, que viviam nas povoações de Aldeias e Faranchos, a 3 e 36 km da sede municipal.",
+        "fonte": "https://www.jequitinhonha.mg.leg.br/institucional/noticias/historia-do-municipio-de-jequitinhonha"
+      },
+      {
+        "texto": "A cidade já se chamou sucessivamente 'Sétima Divisão Militar de São Miguel', 'Freguesia de São Miguel da Sétima Divisão' e 'Vila de Jequitinhonha' antes de receber o nome atual e ser elevada a município em 30 de agosto de 1911 pela Lei Estadual nº 556.",
+        "fonte": "https://pt.wikipedia.org/wiki/Jequitinhonha"
+      },
+      {
+        "texto": "O município abriga, junto com Almenara, a Reserva Biológica da Mata Escura, com mais de 50 mil hectares, única unidade de conservação no Brasil que protege simultaneamente três primatas criticamente ameaçados: o macaco-prego-do-peito-amarelo, o bugio-ruivo e o muriqui-do-norte.",
+        "fonte": "https://pt.wikipedia.org/wiki/Reserva_Biol%C3%B3gica_da_Mata_Escura"
+      },
+      {
+        "texto": "Nasceu em Jequitinhonha, em 17 de julho de 1881, Aleixo Paraguaçu, que se formou em 1910 pela primeira turma da Faculdade Livre de Odontologia e foi deputado federal constituinte por Minas Gerais em 1934.",
+        "fonte": "https://pt.wikipedia.org/wiki/Aleixo_Paragua%C3%A7u"
+      },
+      {
+        "texto": "O ex-prefeito de Santos Paulo Gomes Barbosa, nascido em Jequitinhonha em 5 de dezembro de 1937, foi reconhecido como o primeiro brasileiro a exportar café para os países do bloco socialista e para a União Soviética.",
+        "fonte": "https://pt.wikipedia.org/wiki/Paulo_Gomes_Barbosa"
+      },
+      {
+        "texto": "A Igreja Matriz de São Miguel e Almas, na Praça Virgem da Lapa, foi tombada pelo município em 1997 (Decretos nº 027/1997 e 036/1997, este último protegendo a cruz de metal e o mobiliário litúrgico do altar-mor) e leva o nome do santo do dia em que o fundador da cidade ali chegou.",
+        "fonte": "https://www.ipatrimonio.org/jequitinhonha-igreja-matriz-de-sao-miguel-e-almas/"
+      },
+      {
+        "texto": "O artesanato em barro do Vale do Jequitinhonha, do qual o município é parte integrante, foi registrado como Patrimônio Cultural Imaterial de Minas Gerais pelo IEPHA em 2018, em reconhecimento aos saberes, ofício e expressões artísticas das ceramistas locais.",
+        "fonte": "https://www.iepha.mg.gov.br/index.php/programas-e-acoes/patrimonio-cultural-protegido/bens-registrados/details/2/8/bens-registrados-artesanato-em-barro-do-vale-do-jequitinhonha-saberes,-of%C3%ADcio-e-express%C3%B5es-art%C3%ADsticas"
+      },
+      {
+        "texto": "As enchentes de janeiro e fevereiro de 1979 atingiram fortemente as cidades ribeirinhas do Jequitinhonha, deixando cerca de 30 mil desabrigados na região e tornando intransitáveis as estradas, episódio que marcou a história urbana do município.",
+        "fonte": "https://pt.wikipedia.org/wiki/Enchentes_no_Brasil_em_1979"
+      },
+      {
+        "texto": "Na tradição local da Festa do Divino, conhecida no Vale do Jequitinhonha como 'Giro do Divino', a celebração pode durar até cinquenta dias passando de casa em casa, com os organizadores chegando a visitar até 35 residências em um único dia.",
+        "fonte": "https://www.favelaeissoai.com.br/mostra-diversidade-cultural/territorios/jequitinhonha/"
+      }
+    ]
   }
 }
