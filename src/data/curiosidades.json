@@ -12188,5 +12188,235 @@
         "fonte": "https://www.minasgerais.com.br/pt/destinos/abre-campo"
       }
     ]
+  },
+  "3132206": {
+    "id": 3132206,
+    "nome": "Itaguara",
+    "fatos": [
+      {
+        "texto": "O topônimo Itaguara é de origem tupi e costuma ser traduzido como 'pedra do lobo' (de 'itá', pedra, e 'guará', lobo); o nome substituiu, em 7 de setembro de 1923, a antiga denominação Nossa Senhora das Dores de Conquista, em sintonia com o movimento indianista que ganhou força após a Semana de Arte Moderna de 1922.",
+        "fonte": "https://pt.wikipedia.org/wiki/Itaguara"
+      },
+      {
+        "texto": "A região começou a ser povoada na esteira do bandeirantismo: em 1669, Lourenço Castanho Taques, juiz de órfãos em São Paulo, comandou uma das mais célebres entradas pelos sertões mineiros, dizimando os índios cataguases que ocupavam o vale do Ribeirão Conquista (chamado Ribeirão São Felipe até 1755), no qual surgiu o Arraial de Conquista, um dos primeiros núcleos de Minas Gerais.",
+        "fonte": "https://www.itaguara.mg.gov.br/portal/servicos/69/historia/"
+      },
+      {
+        "texto": "Itaguara emancipou-se de Itaúna em 31 de dezembro de 1943, instalando-se como município em 1º de janeiro de 1944 sob a administração de seu primeiro prefeito, o farmacêutico João da Costa Guimarães, descendente de uma família de quatro irmãos vindos de Guimarães (Portugal) que, em 1703, ajudaram a colonizar a região.",
+        "fonte": "https://itaguara.ribmg.org.br/historia/"
+      },
+      {
+        "texto": "Recém-formado em medicina, João Guimarães Rosa clinicou em Itaguara entre 1931 e abril de 1933, antes de se transferir para Barbacena após a Revolução Constitucionalista; a vivência rural no município, com seus jagunços, vaqueiros e doenças tropicais, alimentaria contos como 'Sarapalha' e 'São Marcos', reunidos em Sagarana (1946).",
+        "fonte": "https://enciclopedia.itaucultural.org.br/pessoas/1806-guimaraes-rosa"
+      },
+      {
+        "texto": "Em homenagem ao escritor que viveu na cidade, Itaguara mantém o Museu Sagarana e a Biblioteca Pública Municipal Guimarães Rosa, e batizou também a Praça Guimarães Rosa, no centro, onde tradicionalmente se monta a estrutura da Festa de Nossa Senhora do Rosário, celebração de Reinado com mais de 150 anos de história organizada pela Irmandade do Rosário.",
+        "fonte": "https://www.minasgerais.com.br/pt/destinos/itaguara"
+      },
+      {
+        "texto": "O município ocupa 410,468 km² no Centro-Oeste mineiro, a 95 km de Belo Horizonte, com sede a cerca de 839 metros de altitude e relevo montanhoso que inclui o Pico dos Paivas e o Pico do Sumaré, na Fazenda dos Paivas, com elevações que ultrapassam 1.200 metros.",
+        "fonte": "https://pt.wikipedia.org/wiki/Itaguara"
+      },
+      {
+        "texto": "Itaguara é banhada pelo Rio Pará — que serve de divisa natural com municípios vizinhos —, pelo Ribeirão Conquista e pelo Rio São João, todos integrantes da bacia do Rio São Francisco, e faz limite com Carmo do Cajuru, Carmópolis de Minas, Crucilândia, Piracema, Cláudio, Rio Manso e Itatiaiuçu.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/itaguara/panorama"
+      },
+      {
+        "texto": "Segundo o Censo do IBGE de 2022, o município reúne 13.846 habitantes, ocupando a 269ª posição entre os 853 municípios mineiros, com densidade demográfica em torno de 33,7 hab./km² e IDH-M de 0,691 (faixa média), apurado em 2010.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/itaguara/panorama"
+      },
+      {
+        "texto": "A história educacional local é antiga: a primeira escola pública do Arraial de Conquista, exclusiva para meninos, foi instalada em 1850, e a feminina apenas em 1877; o Grupo Escolar Coronel Frazão, criado em 20 de janeiro de 1930, ganhou notoriedade nacional em 2004, ao ser apontado entre as dez melhores instituições de ensino público do Brasil.",
+        "fonte": "https://www.itaguara.mg.gov.br/portal/servicos/69/historia/"
+      },
+      {
+        "texto": "O calendário cultural tem como ponto alto o Festival de Inverno e Gastronomia de Itaguara, realizado desde 2001 e considerado o mais relevante evento da cidade; entre as atrações turísticas destacam-se as Cachoeiras da Pataca e do Eldorado, as Ruínas do Engenho Velho, o Santuário de Nossa Senhora das Dores e a capela e ponte setecentistas do Pará dos Vilelas.",
+        "fonte": "https://www.minasgerais.com.br/pt/destinos/itaguara"
+      }
+    ]
+  },
+  "3104304": {
+    "id": 3104304,
+    "nome": "Areado",
+    "fatos": [
+      {
+        "texto": "A povoação de Areado foi fundada em 25 de abril de 1823, pelo Guarda-Mor José Joaquim da Cunha Bastos em conjunto com Antônio dos Reis Rosa e João Marques de Araújo, doadores de aproximadamente 500 hectares de terras; dois dias antes, em 23 de abril, o Padre Venâncio José Siqueira havia rezado a primeira missa no local, batizando o povoado de São Sebastião do Areado.",
+        "fonte": "https://areado.mg.gov.br/a-cidade/historia"
+      },
+      {
+        "texto": "O topônimo \"Areado\" remete a um termo usado pelos descobridores das Minas para designar lugares planos e arenosos à beira de rios; segundo a tradição local, caravanas de boiadeiros que passavam pela região aproveitavam a areia fina existente às margens de um córrego para arear utensílios de cozinha, dando origem ao nome do povoado.",
+        "fonte": "https://areado.mg.gov.br/a-cidade/historia"
+      },
+      {
+        "texto": "Após sucessivas mudanças administrativas - elevação da capela a curato em 1859, à freguesia em 1871 e a vila com o nome de Vila Gomes ao desmembrar-se de Alfenas em 1911 - o município teve seu nome restaurado para Areado pela Lei Estadual nº 747, de 20 de setembro de 1919.",
+        "fonte": "https://areado.mg.gov.br/a-cidade/historia"
+      },
+      {
+        "texto": "A Igreja Matriz de São Sebastião, situada na Praça Henrique Vieira, no centro da cidade, foi construída em 1902 sob a direção do Padre Marco Antônio Torraca; a paróquia, vinculada hoje à Diocese de Guaxupé, havia sido oficialmente criada em 4 de dezembro de 1871 por provisão da diocese de São Paulo, assinada por Mons. Joaquim Manoel Gonçalves de Andrade.",
+        "fonte": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-areado"
+      },
+      {
+        "texto": "O Alto do Cruzeiro, um dos principais cartões-postais da cidade, foi inaugurado em 3 de maio de 1923 em comemoração ao primeiro centenário da Independência do Brasil; do mirante avista-se uma vista panorâmica de Areado e das serras vizinhas, e o local conta hoje com bancos e parquinho infantil.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/areado/alto-do-cruzeiro"
+      },
+      {
+        "texto": "Areado é conhecida como \"Morada dos Peixes\" por estar circundada pelas águas do Lago de Furnas - apelidado de \"Mar de Minas\" -, formado pela barragem da Usina Hidrelétrica de Furnas; em suas águas é possível encontrar tilápias, bagres, lambaris e tucunarés, atraindo pescadores esportivos de toda a região Sudeste.",
+        "fonte": "https://www.afpesp.org.br/folha-do-servidor/turismo/conheca-areado-a-morada-dos-peixes"
+      },
+      {
+        "texto": "A cidade é também chamada de \"Terra do Biscoito\" e realiza anualmente a Festa do Biscoito, que celebra a tradição secular dos biscoitos de polvilho assados em fornos de barro, herança de antigas fábricas de polvilho e do trabalho de famílias rurais; a Associação dos Biscoiteiros Unidos reúne os produtores locais e mantém viva uma receita transmitida entre gerações.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/areado/associacao-dos-biscoiteiros-unidos"
+      },
+      {
+        "texto": "Areado ocupa cerca de 280,754 km² no Sul de Minas, com altitudes que variam entre 800 e 1.325 metros e clima tropical úmido (Aw na classificação de Köppen), apresentando temperatura média anual de 20,7 °C; o município está a aproximadamente 379 km a sudoeste de Belo Horizonte e é cortado pelo Rio Cabo Verde e pelo Ribeirão Santo Antônio.",
+        "fonte": "https://en.wikipedia.org/wiki/Areado"
+      },
+      {
+        "texto": "A economia areadense diversifica-se entre agricultura - com destaque para o café (cerca de 4.032 toneladas em 2015) e a cana-de-açúcar (149.136 toneladas no mesmo ano) - pecuária leiteira e de corte, piscicultura ligada ao Lago de Furnas, além de pequenas indústrias de cerâmica, metalurgia, couro, têxtil e confecção.",
+        "fonte": "https://en.wikipedia.org/wiki/Areado"
+      },
+      {
+        "texto": "Por estar próximo ao Lago de Furnas, Areado registra ocasionalmente pequenos tremores de terra atribuídos a sismos induzidos pelo enchimento e esvaziamento do reservatório; episódios em janeiro de 2004 e junho de 2016 atingiram cerca de 3,2 graus na escala Richter, e novo tremor foi sentido por moradores em julho de 2021, sem causar feridos.",
+        "fonte": "https://www.em.com.br/app/noticia/gerais/2021/07/05/interna_gerais,1283402/moradores-de-areado-dizem-terem-sentido-tremor-de-terra.shtml"
+      }
+    ]
+  },
+  "3114105": {
+    "id": 3114105,
+    "nome": "Carmo de Minas",
+    "fatos": [
+      {
+        "texto": "Carmo de Minas é um município do Sul de Minas, encravado na Serra da Mantiqueira, com 322,285 km² de área territorial, população de 13.797 habitantes apurada no Censo de 2022 e gentílico carmoense, segundo o IBGE; integra a Região Geográfica Imediata de São Lourenço.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/carmo-de-minas.html"
+      },
+      {
+        "texto": "O núcleo original do município nasceu em torno da capela de Nossa Senhora do Carmo, erguida em terras doadas no início do século XIX pelo fazendeiro João Coelho Nunes para a fundação do arraial e da freguesia, então pertencentes ao município de Pouso Alto; o povoado recebeu sucessivamente os nomes de Carmo de Cristina e Carmo de Pouso Alto da Cristina antes da emancipação.",
+        "fonte": "https://cmcm.mg.gov.br/historia-de-carmo-de-minas/"
+      },
+      {
+        "texto": "Por força da Lei Estadual nº 319, de 16 de setembro de 1901, o município foi criado com o nome de Silvestre Ferraz, formado pelos distritos de Carmo do Rio Verde (sede, com a denominação de Vila Silvestre Ferraz) e São Lourenço, ambos desmembrados de Cristina; pela Lei nº 1.039, de 12 de dezembro de 1953, passou a chamar-se Carmo de Minas.",
+        "fonte": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/319/1901/"
+      },
+      {
+        "texto": "O nome Silvestre Ferraz foi inspirado pela estação ferroviária inaugurada em 15 de março de 1890 em terras doadas por Manoel Dias Ferraz, batizada pela diretoria da estrada de ferro em homenagem ao deputado da região; em 1923 o município incorporou ainda o distrito de Dom Viçoso, então pertencente a Cristina.",
+        "fonte": "https://cmcm.mg.gov.br/historia-de-carmo-de-minas/"
+      },
+      {
+        "texto": "No início do século XX, entre 1900 e 1918, Carmo de Minas chegou a manter, ao mesmo tempo ou sucessivamente, ginásio masculino, escola normal feminina e escolas de Agricultura, Farmácia e Odontologia, o que lhe rendeu a alcunha de 'Atenas Sul-Mineira' por atrair estudantes de localidades distantes.",
+        "fonte": "https://cmcm.mg.gov.br/historia-de-carmo-de-minas/"
+      },
+      {
+        "texto": "A Praça Francisco Franqueira, no centro, abriga obras assinadas por Francisco da Silva Reis, o 'Chico Cascateiro', escultor português que modelou em argamassa um coreto, treze bancos imitando troncos caídos e bambus, além de uma cascata; o jardim público foi inaugurado em 1921 e o coreto é protegido como bem cultural local.",
+        "fonte": "https://www.ipatrimonio.org/carmo-de-minas-coreto-do-chico-cascateiro/"
+      },
+      {
+        "texto": "Carmo de Minas é o coração da Indicação Geográfica 'Mantiqueira de Minas', cujo registro de Indicação de Procedência foi concedido pelo INPI em 31 de maio de 2011 a pedido da APROCAM, abrangendo o café arábica produzido em 22 municípios da Serra da Mantiqueira mineira; o município concentra o maior número de produtores que utilizam o selo IG.",
+        "fonte": "https://www.embrapa.br/en/busca-de-noticias/-/noticia/18146715/cafe-da-serra-da-mantiqueira-recebe-indicacao-de-procedencia-"
+      },
+      {
+        "texto": "Considerada referência mundial em cafés especiais, a microrregião de Carmo de Minas é apontada como local de origem de mais de 75% dos lotes brasileiros premiados no Cup of Excellence; o concurso reconhece anualmente os melhores cafés do país e produtores carmoenses figuram repetidamente entre os finalistas, como a centenária Fazenda Sertão, dos Dias Pereira.",
+        "fonte": "https://www.centrodocafecarmodeminas.com.br/institucional"
+      },
+      {
+        "texto": "O cafeicultor Luiz Paulo Dias Pereira Filho, da Fazenda Santuário Sul, em Carmo de Minas, foi escolhido pela Alliance for Coffee Excellence como um dos seis primeiros nomes da 'Legends of Excellence' do café especial mundial; aparece entre os vencedores do Cup of Excellence 23 vezes e mantém em sua propriedade plantio comercial pioneiro do raro Coffea eugenioides, espécie ancestral do arábica.",
+        "fonte": "https://diariodocomercio.com.br/agronegocio/cafeicultor-minas-gerais-eleito-lenda-mundial-cafe-especial/"
+      },
+      {
+        "texto": "Inserido na bacia do Rio Verde, afluente do Rio Grande, o município tem clima tropical de altitude, com inverno seco e ameno (temperaturas entre 10 e 18 graus Celsius) e verão chuvoso, condições que favorecem a cafeicultura de altitude; a padroeira Nossa Senhora do Carmo é festejada em 16 de julho, e a cidade comemora seu aniversário em 16 de setembro com o Festival do Café Especial na Praça de Eventos.",
+        "fonte": "https://www.emater.mg.gov.br/portal.do?flagweb=novosite_pagina_interna&id=28586"
+      }
+    ]
+  },
+  "3127800": {
+    "id": 3127800,
+    "nome": "Grão Mogol",
+    "fatos": [
+      {
+        "texto": "Localizada no Norte de Minas, na região do Vale do Jequitinhonha, Grão Mogol ocupa uma área de aproximadamente 3.885,294 km² na Serra do Espinhaço, com sede a cerca de 829 metros de altitude e a 556 km de Belo Horizonte; o Censo de 2022 contabilizou 13.901 habitantes, configurando uma baixa densidade demográfica de cerca de 3,6 hab./km².",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/grao-mogol/panorama"
+      },
+      {
+        "texto": "O povoado original chamava-se Serra de Santo Antônio do Itacambiruçu e surgiu em decorrência da descoberta de diamantes no final do século XVIII, quando faiscadores vindos do Tijuco (atual Diamantina) acharam pedras preciosas na região; em 1839 já era conhecido como Arraial da Serra de Grão Mogol e, em 23 de março de 1849, foi elevado a vila pela Lei Provincial nº 171.",
+        "fonte": "https://www.graomogol.mg.leg.br/institucional/historia"
+      },
+      {
+        "texto": "O nome do município é tributo a um lendário diamante indiano, o Grande Mogul (Great Mogul Diamond), que pesava cerca de 793 quilates em estado bruto e é considerado o maior diamante já lapidado pelo persa Hortênsio Borgio para o Xá Jahan, construtor do Taj Mahal; a pedra está desaparecida sem rastro desde o século XVIII.",
+        "fonte": "https://pt.wikipedia.org/wiki/Grande_Mogul"
+      },
+      {
+        "texto": "A exploração clandestina de diamantes na Serra de Grão Mogol provocou intensa migração de garimpeiros e desencadeou conflitos por cerca de 35 anos com tropas da Coroa portuguesa, que só conseguiram dominar os faiscadores após mais de uma dúzia de combates; topônimos locais como Ribeirão do Inferno e Córrego das Mortes guardam a memória dessa guerrilha colonial.",
+        "fonte": "https://altamontanha.com/o-espinhaco-grao-mogol/"
+      },
+      {
+        "texto": "O Centro Histórico de Grão Mogol foi tombado pelo IEPHA-MG por meio da Deliberação CONEP 02/2017, de 23 de maio de 2017, sendo inscrito em três livros do tombo; o conjunto urbano protegido inclui as casas em pedra, o calçamento, o traçado das ruas e a Igreja Matriz de Santo Antônio, expressando a austeridade técnica e ornamental da ocupação colonial no Norte de Minas.",
+        "fonte": "https://www.iepha.mg.gov.br/index.php/programas-e-acoes/patrimonio-cultural-protegido/bens-tombados/details/1/140/bens-tombados-centro-hist%C3%B3rico-de-gr%C3%A3o-mogol"
+      },
+      {
+        "texto": "A Igreja Matriz de Santo Antônio, padroeiro da cidade, foi inaugurada em 1858, mesmo ano em que Grão Mogol recebeu o título de cidade; construída em alvenaria de pedra aparelhada por mão de obra escravizada cedida pelo Barão de Grão Mogol, destaca-se pela rara simetria de três naves de mesmas dimensões, pórtico de pedra e forro de madeira com pintura do santo padroeiro.",
+        "fonte": "https://www.ipatrimonio.org/grao-mogol-igreja-matriz-santo-antonio/"
+      },
+      {
+        "texto": "Guálter Martins Pereira, primeiro e único Barão de Grão Mogol, nasceu em 1826 na Fazenda Santo Antônio do município e tornou-se um dos homens mais ricos da região do diamante; em 1876 mudou-se para Rio Claro (SP), onde fundou a Fazenda Grão Mogol em homenagem à terra natal e chegou a presidir a Câmara Municipal entre 1887 e 1890.",
+        "fonte": "https://www.graomogol.mg.leg.br/institucional/historia"
+      },
+      {
+        "texto": "A Trilha do Barão, com cerca de 13 km de extensão, foi inteiramente pavimentada em cantarias por escravizados a mando do Barão de Grão Mogol para ligar sua fazenda ao arraial; pelo caminho, o Barão e seus familiares eram transportados em liteiras carregadas pelos cativos, e hoje a trilha integra os atrativos do Parque Estadual de Grão Mogol, exigindo agendamento prévio no IEF.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/grao-mogol/trilha-do-barao"
+      },
+      {
+        "texto": "O Parque Estadual de Grão Mogol foi criado pelo Decreto Estadual nº 39.906, de 22 de setembro de 1998, e atualmente protege 28.404,487 hectares de Cerrado, campos rupestres e caatinga arbustiva após ajuste promovido pelo Decreto nº 45.243/2009; abriga espécies ameaçadas como o lobo-guará, a onça-parda, o tamanduá-bandeira, o tatu-canastra e o macaco sauá, além de canelas-de-ema de grande relevância ecológica.",
+        "fonte": "https://pt.wikipedia.org/wiki/Parque_Estadual_de_Gr%C3%A3o_Mogol"
+      },
+      {
+        "texto": "O Rio Itacambiruçu, principal curso d'água do município, nasce na Serra Geral pela junção do Ribeirão Sujo com o Ribeirão da Areia, na divisa entre Itacambira e Botumirim, percorre cânions profundos esculpidos em quartzito e deságua, hoje parcialmente afogado pelo reservatório da Usina Hidrelétrica de Irapé, no Rio Jequitinhonha; a altitude máxima do município chega a 1.344 m na Serra da Bocaina e a mínima a 539 m na foz do Rio Vacaria.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/rio-itacambiracu"
+      }
+    ]
+  },
+  "3136009": {
+    "id": 3136009,
+    "nome": "Joaíma",
+    "fatos": [
+      {
+        "texto": "Joaíma é um município do nordeste de Minas Gerais, situado no Vale do Jequitinhonha, na Região Geográfica Imediata de Almenara e na Região Geográfica Intermediária de Teófilo Otoni; possui área territorial de 1.664,190 km² e população de 13.888 habitantes recenseados pelo IBGE em 2022, com densidade de 8,35 hab./km² e gentílico joaimense.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/joaima.html"
+      },
+      {
+        "texto": "O topônimo é uma homenagem ao 'tucháua' Joahima, chefe de uma das tribos botocudas que habitavam a região antes da colonização; a chegada dos portugueses ocorreu em 1811 sob o comando do Alferes Julião Fernandes Leão, encarregado de instalar-se na margem direita do Rio Jequitinhonha e tentar aldeiar os indígenas espalhados pelos afluentes locais.",
+        "fonte": "https://redescobrindoosvales.tur.br/jequitinhonha/microrregiao-de-almenara/joaima/historia.php"
+      },
+      {
+        "texto": "O povoado nasceu como 'Quartel de Água Branca' e depois 'Quartéis do Bonfim', em referência à devoção ao Senhor do Bonfim; em 1892 chegou Cypriano de Souza, vindo de Santa Rita (depois Medina), que junto com o Padre Emereciano Alves de Oliveira mandou erguer a primeira capela, onde se celebrou em 6 de agosto de 1900 a primeira festa do padroeiro.",
+        "fonte": "https://redescobrindoosvales.tur.br/jequitinhonha/microrregiao-de-almenara/joaima/historia.php"
+      },
+      {
+        "texto": "Pela Lei Estadual nº 556, de 30 de agosto de 1911, o lugar foi elevado a distrito do recém-criado município de São Miguel de Jequitinhonha, com o nome de Bonfim de Joahima; a emancipação política veio com a Lei Estadual nº 336, de 27 de dezembro de 1948, quando o município passou a chamar-se Joaíma e levou consigo o distrito de Felisburgo, que só se emanciparia em 1º de março de 1963.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/joaima/historico"
+      },
+      {
+        "texto": "O território municipal é dividido em dois distritos, o distrito-sede e Giru, este último criado pela Lei Estadual nº 8.285, de 8 de outubro de 1982; Giru ocupa cerca de 377,13 km² (22,64% do território) e teve origem por volta de 1905, com a fixação do casal João Amaro e Dona Augustinha, no contexto da migração nordestina provocada pela seca de 1899.",
+        "fonte": "https://redescobrindoosvales.tur.br/jequitinhonha/microrregiao-de-almenara/joaima/distrito-de-giru.php"
+      },
+      {
+        "texto": "Joaíma faz divisa com Jequitinhonha, Felisburgo, Santa Helena de Minas, Fronteira dos Vales, Águas Formosas, Monte Formoso e Novo Oriente de Minas; a sede está a cerca de 27 km ao sul do Rio Jequitinhonha e a 58 km a leste da BR-116, em altitude de aproximadamente 292 metros, nas coordenadas 16°39'S e 41°02'O.",
+        "fonte": "https://en.wikipedia.org/wiki/Joa%C3%ADma"
+      },
+      {
+        "texto": "O município integra a bacia dos Afluentes Mineiros do Médio e Baixo Jequitinhonha (Comitê JQ3, instituído pelo Decreto Estadual nº 44.955, de 19 de novembro de 2008) e está inserido na área de atuação da SUDENE, no chamado semiárido mineiro; vista do alto, a sede tem formato semelhante a uma península, formada pela confluência dos rios São Miguel, Anta, Padre e Água Branca.",
+        "fonte": "https://igam.mg.gov.br/w/jq3-cbh-dos-afluentes-mineiros-do-medio-e-baixo-rio-jequitinhonha"
+      },
+      {
+        "texto": "A economia local é predominantemente agropecuária, com destaque para a pecuária bovina (cerca de 62 mil cabeças de gado registradas em 2006) e o cultivo de café, cana-de-açúcar e milho, ainda em grande parte de subsistência; o PIB per capita do município alcançou R$ 15.202,06 em 2023, segundo dados do IBGE.",
+        "fonte": "https://en.wikipedia.org/wiki/Joa%C3%ADma"
+      },
+      {
+        "texto": "A culinária artesanal joaimense tem como ícone o Queijo Cabacinha, especialidade do Vale do Jequitinhonha modelado à mão no formato de cabaça; o modo de fazer foi reconhecido como patrimônio cultural e imaterial de Minas Gerais por lei sancionada em 2022 pelo governador Romeu Zema, beneficiando, segundo a Emater-MG, cerca de 160 famílias produtoras em sete municípios da região.",
+        "fonte": "https://www.agenciaminas.mg.gov.br/noticia/queijo-cabacinha-passa-a-ser-patrimonio-cultural-e-imaterial-de-minas"
+      },
+      {
+        "texto": "Entre os principais cartões-postais do município está a Cachoeira Dois Batentes, formada por um córrego do Rio São Miguel próximo ao distrito de Giru, com queda d'água, piscina natural e acesso pela MG-105 em direção a Fronteira dos Vales; o patrimônio histórico urbano inclui o prédio da Câmara Municipal, na Travessa Antônio Serafim Costa, e a Casa do Transval - Dalira Ribeiro Souto, ambos protegidos por decretos municipais (nº 1.355/1998 e nº 1.372/1999, respectivamente).",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/joaima/cachoeira-dois-batentes"
+      }
+    ]
   }
 }
