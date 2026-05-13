@@ -11728,5 +11728,235 @@
         "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/brazopolis.html"
       }
     ]
+  },
+  "3101003": {
+    "id": 3101003,
+    "nome": "Águas Vermelhas",
+    "fatos": [
+      {
+        "texto": "O topônimo Águas Vermelhas se deve à cor ferruginosa, avermelhada, das águas do córrego que banha a sede do município; o povoado nasceu de um curral fundado às margens do Rio Mosquito, em região originalmente habitada por indígenas de tronco tupi do Alto Rio Pardo.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/aguas-vermelhas/historico"
+      },
+      {
+        "texto": "O distrito de Águas Vermelhas foi criado pela Lei Provincial nº 2.145, de 29 de outubro de 1875, e confirmado pela Lei Estadual nº 2, de 14 de setembro de 1891, permanecendo subordinado ao município de Salinas até a emancipação política, ocorrida pela Lei Estadual nº 2.764, de 30 de dezembro de 1962.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/aguas-vermelhas/historico"
+      },
+      {
+        "texto": "A instalação oficial do município ocorreu em 1º de março de 1963, quando assumiu como intendente municipal João dos Santos Fernandes; pela Lei Estadual nº 12.030, de 21 de dezembro de 1995, os antigos distritos de Curral de Dentro e Divisa Alegre foram desmembrados de Águas Vermelhas, restando hoje a sede e os distritos de Itamarati e Machado Mineiro, este criado pela Lei Municipal nº 611, de 17 de abril de 1995.",
+        "fonte": "https://redescobrindoosvales.tur.br/norte/microrregiao-de-salinas/aguas-vermelhas/historia.php"
+      },
+      {
+        "texto": "Águas Vermelhas integra o Polígono das Secas e a área de atuação da SUDENE em Minas Gerais, com clima semiárido (classificação Bsh de Köppen-Geiger) e vegetação de transição entre cerrado e caatinga; é uma das poucas porções do território mineiro inserida oficialmente no Semiárido Brasileiro.",
+        "fonte": "https://pt.wikipedia.org/wiki/Pol%C3%ADgono_das_secas"
+      },
+      {
+        "texto": "A sede do município situa-se a cerca de 746 metros de altitude e a aproximadamente 760 km de Belo Horizonte, sendo cortada pela rodovia MG-251 e ficando a cerca de 13 km da BR-116 (Rio-Bahia), eixo rodoviário que conecta Águas Vermelhas à divisa com a Bahia e à cidade de Vitória da Conquista, sua principal referência regional de comércio e serviços.",
+        "fonte": "https://en.wikipedia.org/wiki/%C3%81guas_Vermelhas"
+      },
+      {
+        "texto": "A Pequena Central Hidrelétrica (PCH) Machado Mineiro, da Cemig, opera desde 1992 no Rio Pardo entre os municípios de Ninheira e Águas Vermelhas, com duas turbinas Francis de eixo horizontal e 1,72 MW de potência instalada; sua barragem tem 300 metros de extensão e 40 metros de altura máxima, formando reservatório de 202,16 hm³.",
+        "fonte": "https://www.cemig.com.br/en/usina/pch-machado-mineiro/"
+      },
+      {
+        "texto": "A padroeira religiosa da sede é a Paróquia São Sebastião, cuja igreja matriz está localizada na área central da cidade e foi erguida em homenagem ao mártir festejado em 20 de janeiro; a Semana Santa de Águas Vermelhas, com missas, procissões e encenações, integra o calendário oficial de eventos do Portal Minas Gerais.",
+        "fonte": "https://www.minasgerais.com.br/pt/eventos/aguas-vermelhas/semana-santa-em-aguas-vermelhas"
+      },
+      {
+        "texto": "A economia de Águas Vermelhas é baseada na pecuária de corte e na agricultura familiar, com destaque para o cultivo de café, banana, cana-de-açúcar, feijão, mandioca e milho, atividades favorecidas pela bacia do Rio Pardo, afluente do Atlântico que recebe o Rio Mosquito após cortar o município.",
+        "fonte": "https://en.wikipedia.org/wiki/%C3%81guas_Vermelhas"
+      },
+      {
+        "texto": "Águas Vermelhas faz divisa com os municípios mineiros de Ninheira, Divisa Alegre, Curral de Dentro, Berizal, São João do Paraíso e Medina, situando-se na fronteira entre o Norte de Minas e o Vale do Jequitinhonha, próxima à divisa com a Bahia.",
+        "fonte": "https://en.wikipedia.org/wiki/%C3%81guas_Vermelhas"
+      },
+      {
+        "texto": "Segundo o IBGE, Águas Vermelhas (código 3101003) tem área territorial de 1.256,607 km² e população de 14.037 habitantes pelo Censo Demográfico de 2022 (densidade demográfica de 11,17 hab/km²), com gentílico águas-vermelhense, IDH-M de 0,601 (faixa média) apurado em 2010 e PIB per capita de R$ 19.832,58 em 2023.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/aguas-vermelhas.html"
+      }
+    ]
+  },
+  "3140506": {
+    "id": 3140506,
+    "nome": "Martinho Campos",
+    "fatos": [
+      {
+        "texto": "Martinho Campos foi emancipada pela Lei Estadual nº 148, de 17 de dezembro de 1938, durante o governo de Benedito Valadares, quando o antigo distrito de Abadia do Pitangui, criado pela Lei Provincial nº 911 de 8 de junho de 1858, foi desmembrado do município de Pitangui.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/martinho-campos/historico"
+      },
+      {
+        "texto": "O topônimo da cidade homenageia Martinho Álvares da Silva Campos (1816-1887), estadista nascido em terras pitanguienses que foi deputado geral, senador do Império por Minas Gerais, presidente da província do Rio de Janeiro e chefe do 29º Gabinete do Conselho de Ministros entre janeiro e julho de 1882, ficando conhecido como 'Fiscal do Poder' por sua oposição sistemática aos gabinetes imperiais.",
+        "fonte": "https://www2.camara.leg.br/a-camara/conheca/presidentes/old_textobiografia/martinho_campos.html"
+      },
+      {
+        "texto": "A formação do povoado remonta ao início do século XIX, quando o pernambucano Maximiano Alves de Araújo estabeleceu a Fazenda do Junco e o português Jerônimo Vieira fundou em 1808 a Fazenda da Barra, com engenho de cana-de-açúcar; entre 1808 e 1820 os dois fazendeiros ergueram, no ponto equidistante entre as propriedades, a capela que originou o atual Santuário de Nossa Senhora da Abadia.",
+        "fonte": "http://www.amomartinhocampos.com.br/pagina.php?id=1"
+      },
+      {
+        "texto": "A padroeira do município é Nossa Senhora da Abadia, cuja imagem original em madeira, doada por Jerônimo Vieira e trazida de Portugal no início do século XIX, ainda hoje ocupa o altar-mor do santuário; a festa em sua honra, celebrada entre 5 e 15 de agosto, foi registrada como bem cultural imaterial pela Prefeitura Municipal por meio do Decreto nº 151/2009, inscrito no Livro de Registro das Celebrações.",
+        "fonte": "https://www.ipatrimonio.org/martinho-campos-festa-de-nossa-senhora-da-abadia/"
+      },
+      {
+        "texto": "Na localidade de Capão do Zezinho, às margens esquerdas do Rio Pará a cerca de 15 km da sede, vive a comunidade indígena Kaxixó, povo de tronco linguístico macro-jê cuja autenticidade étnica foi reconhecida oficialmente pela Funai em portaria de 26 de março de 2013 que delimitou 5.411 hectares como terra indígena nos municípios de Martinho Campos e Pompéu.",
+        "fonte": "https://pib.socioambiental.org/pt/Povo:Kaxix%C3%B3"
+      },
+      {
+        "texto": "O território municipal é cortado pelo Rio Pará, importante afluente da margem esquerda do Rio São Francisco que nasce na Serra das Vertentes em Resende Costa e percorre cerca de 365 km até desaguar no São Francisco no município vizinho de Pompéu, sendo um dos principais contribuintes do reservatório da Usina Hidrelétrica de Três Marias.",
+        "fonte": "https://pt.wikipedia.org/wiki/Rio_Par%C3%A1_(Minas_Gerais)"
+      },
+      {
+        "texto": "Entre os atrativos naturais do município destaca-se a Gruta da Lapa, formação calcária com cerca de 30 metros de profundidade associada a tradições religiosas locais ligadas a Nossa Senhora do Perpétuo Socorro, além do trecho fluvial onde se dá a confluência do Rio Pará com o Rio São Francisco, explorado para pesca esportiva e ecoturismo.",
+        "fonte": "http://www.amomartinhocampos.com.br/pagina.php?id=1"
+      },
+      {
+        "texto": "Entre as manifestações culturais tradicionais de Martinho Campos figuram as Folias de Reis, a Festa do Divino Espírito Santo, as festas juninas, a Festa de São Vicente de Paulo, as comemorações da Semana Santa e eventos populares como o Forró na Praça e o Churrascão do Curral, além de lendas locais recorrentes como a do Caboclo D'Água, da Mãe D'Água e do Padre Pinheiro.",
+        "fonte": "http://www.amomartinhocampos.com.br/pagina.php?id=1"
+      },
+      {
+        "texto": "Além da sede, o município é dividido administrativamente em três distritos rurais — Alberto Isaacson, Ibitira e Buriti Grande —, sendo que Alberto Isaacson e Ibitira foram criados em 1962, e Martinho Campos faz divisa com Pompéu, Abaeté, Pitangui, Bom Despacho, Dores do Indaiá, Leandro Ferreira e Quartel Geral, integrando a microrregião de Bom Despacho no Centro-Oeste mineiro.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/martinho-campos/historico"
+      },
+      {
+        "texto": "Segundo o IBGE, Martinho Campos (código 3140506) ocupa área territorial de 1.060,302 km² e contava com 14.003 habitantes pelo Censo Demográfico de 2022 (densidade de 13,2 hab/km²), com gentílico martinho-campense, situando-se a cerca de 197 km de Belo Horizonte e tendo registrado PIB de R$ 474.771.927 mil e PIB per capita de R$ 35.176,11 em 2021.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/martinho-campos/panorama"
+      }
+    ]
+  },
+  "3112703": {
+    "id": 3112703,
+    "nome": "Capitão Enéas",
+    "fatos": [
+      {
+        "texto": "A formação do município remonta a uma expedição organizada pelo capitão Antônio Gonçalves Figueira, que buscava ligar Montes Claros ao rio Gorutuba e aos currais da Bahia; o grupo acampou às margens de uma pequena lagoa próxima à Serra do Catuni e ergueu uma cruz, ato fundador do que viria a ser o povoado de Brejo das Almas (atual Francisco Sá), do qual Capitão Enéas se desmembraria séculos depois.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "O topônimo homenageia o pernambucano Enéas Mineiro de Souza, desbravador que chegou ao Norte de Minas no início da década de 1930 para trabalhar na construção de longos trechos da Estrada de Ferro Central do Brasil ligando São Paulo à Bahia, e que estabeleceu na região a Fazenda Burarama, dotada de casas, serraria, algodoeira, matadouro e salgadeira, núcleo econômico que atraiu famílias e originou o povoado.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "O município foi criado com a denominação de Burarama de Minas pela Lei estadual nº 2.764, de 30 de dezembro de 1962, desmembrado de Francisco Sá, e foi instalado em 1º de março de 1963 com dois distritos (Burarama de Minas e Caçarema); pela Lei estadual nº 3.973, de 15 de dezembro de 1965, passou a chamar-se Capitão Enéas, em homenagem ao benfeitor local e primeiro prefeito, Enéas Mineiro de Souza.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "Enéas Mineiro de Souza, primeiro prefeito da cidade, faleceu em 11 de setembro de 1965 aos 76 anos, ainda no exercício do mandato iniciado em 1963; antes de morrer, manteve viva a vida cultural do povoado custeando uma banda de música local com doações de instrumentos, cessão de espaço para ensaios e pagamento do regente.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "Capitão Enéas é considerada o berço da vaquejada em Minas Gerais por ter sediado, no final da década de 1960, a primeira competição do esporte no estado, tradição introduzida pelo vaqueiro Adão Rocha Pinto inspirado nos rodeios baianos; a Vaquejada Nacional de Capitão Enéas é realizada anualmente no Parque de Exposições da cidade e, em sua 9ª edição, em março de 2026, reuniu cerca de 40 mil pessoas durante os dias de festa.",
+        "fonte": "https://webterra.com.br/2026/03/10/9a-vaquejada-nacional-de-capitao-eneas-contou-com-40-mil-pessoas-durante-os-dias-de-festa"
+      },
+      {
+        "texto": "O padroeiro do município é São Sebastião, festejado em dezembro com quermesses, leilões de prendas e shows musicais; a Paróquia de São Sebastião, vinculada à Arquidiocese de Montes Claros, tem sede na Praça José Alves (Praça da Matriz), no centro da cidade, e mantém missas regulares às quintas-feiras à noite e aos domingos pela manhã e à noite.",
+        "fonte": "https://arquimoc.org/paroquias/paroquia-sao-sebastiao-capitao-eneas-2/"
+      },
+      {
+        "texto": "Em 2005 foi criado o terceiro distrito do município, Santana da Serra, que se somou aos distritos sede de Capitão Enéas e Caçarema; o município faz divisa com São João da Ponte, Montes Claros, Francisco Sá e Janaúba, e dista cerca de 471 km de Belo Horizonte e 90 km de Montes Claros, integrando a microrregião de Montes Claros na mesorregião do Norte de Minas.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "Entre os principais atrativos naturais do município estão a foz do Rio Verde Grande, usada para a pesca, a Lapinha do Santo (Gruta de Santo Antônio) e a Gruta da Lapinha na Serra de Santana, conhecidas por suas pinturas rupestres, além das Lagoas do São João e Lagoinha e do Morro São João.",
+        "fonte": "https://www.minasgerais.com.br/pt/destinos/capitao-eneas"
+      },
+      {
+        "texto": "A Prefeitura de Capitão Enéas conquistou em 15 de maio de 2012 o VII Prêmio Sebrae Prefeito Empreendedor em duas categorias - Compras Governamentais e Lei Geral Municipal - reconhecimento das políticas locais voltadas a pequenos negócios; o município figura também entre os três da região com maior PIB per capita, conforme registro da própria prefeitura municipal.",
+        "fonte": "https://capitaoeneas.mg.gov.br/historia/"
+      },
+      {
+        "texto": "Segundo o IBGE, Capitão Enéas (código 3112703) tem área territorial de 971,576 km² e população de 14.108 habitantes pelo Censo Demográfico de 2022 (densidade demográfica de 14,52 hab/km²), com gentílicos eneapolitano e capitão-eneense, IDH-M de 0,639 (faixa média) apurado em 2010 e altitude de 908 m na sede, em região de clima tropical semiárido do Norte de Minas.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/capitao-eneas.html"
+      }
+    ]
+  },
+  "3112000": {
+    "id": 3112000,
+    "nome": "Candeias",
+    "fatos": [
+      {
+        "texto": "O nome de Candeias deriva da árvore candeia, abundante no cerrado local; tropeiros que cruzavam a chamada Picada de Goiás em busca de ouro denominavam o lugar de 'pouso das candeias', referência ao ponto de descanso situado no alto de uma colina coberta por essas árvores.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/candeias/historico"
+      },
+      {
+        "texto": "A ocupação do território remonta a 1754, quando Domingos Rodrigues Lima Tendais requereu sesmaria na região onde já existia o 'Pouso das Sete Lagoas de Candeias', na Picada de Goiás; em 1787, ele e sua esposa Dona Maria Ramos Branca doaram terras para a formação do patrimônio religioso que originaria a futura cidade.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/candeias/historico"
+      },
+      {
+        "texto": "Candeias foi criada como distrito de Campo Belo pela Lei Provincial nº 1.274, de 2 de janeiro de 1866, e elevada à categoria de município pelo Decreto-Lei Estadual nº 148, de 17 de dezembro de 1938, sendo desmembrada de Campo Belo; entre 1923 e 1933 o distrito chegou a se chamar Nossa Senhora das Candeias.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/candeias/historico"
+      },
+      {
+        "texto": "Segundo o IBGE, Candeias tem código municipal 3112000, área territorial de 720,512 km² e população de 14.001 habitantes pelo Censo Demográfico de 2022 (densidade de 19,43 hab/km²), com gentílico candeense; o município integra a mesorregião do Oeste de Minas e a microrregião de Campo Belo, e fica a cerca de 240 km de Belo Horizonte.",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/candeias.html"
+      },
+      {
+        "texto": "A sede do município está a uma altitude de 934 metros, e o território apresenta altitudes que variam entre 800 e 1.100 metros; Candeias limita-se com os municípios de Formiga, Campo Belo, Cristais, Santana do Jacaré, São Francisco de Paula e Camacho, e tem parte de sua área coberta pelas águas do Lago de Furnas.",
+        "fonte": "https://pt.wikipedia.org/wiki/Candeias_(Minas_Gerais)"
+      },
+      {
+        "texto": "A hidrografia municipal pertence à Bacia do Rio Grande, sendo formada principalmente pelos rios Santana do Jacaré e Formiga; o clima é subtropical com inverno seco, temperatura média anual em torno de 20 °C e pluviosidade entre 1.300 e 1.400 mm ao ano, com vegetação de cerrado, campo cerrado e manchas de Mata Atlântica.",
+        "fonte": "https://www.camaracandeias.mg.gov.br/portal/servicos/1001/conheca-candeias/"
+      },
+      {
+        "texto": "A Estação Ferroviária de Candeias é um dos principais bens patrimoniais do município: o prédio foi tombado em nível municipal pelo Decreto nº 927/2006 e protegido em âmbito federal pelo Iphan por meio da Lei 11.483/2007 e da Portaria Iphan nº 407/2010; atualmente abriga a Secretaria Municipal de Cultura.",
+        "fonte": "https://www.ipatrimonio.org/candeias-estacao-ferroviaria/"
+      },
+      {
+        "texto": "A Igreja Matriz de Nossa Senhora das Candeias passou por sucessivas transformações arquitetônicas: o templo barroco original, com mais de um século de existência, foi demolido em 1922 pelo padre Dionísio Chagas para dar lugar a uma matriz em estilo gótico inaugurada em 1929; entre o fim da década de 1950 e 1978, sob iniciativa do Monsenhor Joaquim de Castro, a estrutura gótica foi substituída pelo atual edifício de inspiração clássica.",
+        "fonte": "https://candeiasmg.blogspot.com/2010/05/igreja-matriz-de-candeias.html"
+      },
+      {
+        "texto": "Entre os atrativos naturais de Candeias destacam-se a Cachoeira da Usina Velha, com cerca de 28 metros de queda d'água em meio a matas, grutas e poços de água cristalina, e a Pedra do Lençol, o maior afloramento rochoso do município, cercado de lendas locais sobre luzes e discos voadores; o conjunto inclui também a Cachoeira do Tombo e o Lago de Furnas, na divisa oeste.",
+        "fonte": "https://www.camaracandeias.mg.gov.br/portal/turismo/0/9/5/cachoeira-usina-velha"
+      },
+      {
+        "texto": "Entre as principais manifestações culturais e religiosas da cidade estão a Festa do Congado, a Festa do Rosário no Alto do Cruzeiro, a Festa do Rosário na Ponte, a Festa do Produtor Rural e as celebrações de São Sebastião em Vieiras Bravos; a economia do município se apoia na produção de cafés finos, no cultivo de feijão e milho, na pecuária leiteira e de corte e na extração de granito, que ganhou impulso entre as décadas de 1980 e 1990.",
+        "fonte": "https://www.igrcampodasvertentes.com.br/candeias"
+      }
+    ]
+  },
+  "3142700": {
+    "id": 3142700,
+    "nome": "Montalvânia",
+    "fatos": [
+      {
+        "texto": "Montalvânia é o município mais setentrional de Minas Gerais, encravado no extremo norte do estado, na divisa com a Bahia, e tem como limítrofes os municípios mineiros de Bonito de Minas, Cônego Marinho, Miravânia, Manga e Juvenília e os baianos de Feira da Mata e Cocos; segundo o IBGE, o município ocupa 1.503,755 km² e teve população recenseada de 14.060 habitantes em 2022, com densidade demográfica de 9,35 hab/km².",
+        "fonte": "https://www.ibge.gov.br/cidades-e-estados/mg/montalvania.html"
+      },
+      {
+        "texto": "A cidade foi idealizada e fundada em 22 de abril de 1952 por Antônio Lopo Montalvão (1917-1992), político, escritor, poeta e arqueólogo autodidata nascido em Januária, que traçou a planta urbana sobre uma cartolina e a concebeu como a segunda cidade planejada de Minas Gerais, depois de Belo Horizonte, em pleno sertão mineiro.",
+        "fonte": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Montalv%C3%A3o"
+      },
+      {
+        "texto": "O traçado urbano de Montalvânia é uma homenagem aberta ao pensamento universal: suas ruas e praças levam nomes de filósofos, cientistas e líderes religiosos como Sócrates, Platão, Confúcio, Buda, Zoroastro, Plutarco, Galileu, Copérnico, Pasteur, Schopenhauer, Kant, Nietzsche, Rousseau, Descartes, Hegel, Gandhi, Marx e Adam Smith, e a sede da prefeitura fica na Avenida Confúcio, nº 1150.",
+        "fonte": "https://www.em.com.br/app/noticia/gerais/2016/11/14/interna_gerais,823610/conheca-a-historia-de-uma-cidade-planejada-em-pleno-sertao-de-minas.shtml"
+      },
+      {
+        "texto": "A emancipação política se deu pela Lei Estadual nº 2.764, de 30 de dezembro de 1962, que desmembrou o território de Manga e elevou a localidade à categoria de município; o município foi efetivamente instalado em 1º de março de 1963, originalmente constituído pelos distritos de Montalvânia (sede), São Sebastião dos Poções e Pitarana, este último criado pela mesma lei.",
+        "fonte": "https://cidades.ibge.gov.br/brasil/mg/montalvania/historico"
+      },
+      {
+        "texto": "A Lapa do Dragão, abrigo formado pelo desabamento de um morro nos arredores da cidade, é um dos sítios arqueológicos mais antigos do Brasil: escavada a partir de 1977 sob coordenação de André Prous pela UFMG em conjunto com a Missão Arqueológica Franco-Brasileira de Minas Gerais, forneceu datações de radiocarbono que vão de cerca de 11.000 a 970 anos AP, ao lado de Lapa do Boquete e Caverna da Pedra Pintada entre os registros mais remotos de ocupação humana no país.",
+        "fonte": "https://pt.wikipedia.org/wiki/Lapa_do_Drag%C3%A3o"
+      },
+      {
+        "texto": "A região deu nome a uma tradição própria da arte rupestre brasileira: o Complexo Estilístico Montalvânia, caracterizado por gravuras e pinturas geralmente monocromáticas, com forte presença de antropomorfos e biomorfos esquemáticos, frequentemente em tetos baixos e zonas de penumbra; só na Lapa do Dragão foram identificadas milhares de figuras distribuídas em sete painéis em paredes irregulares e tetos.",
+        "fonte": "https://pt.wikipedia.org/wiki/Lapa_do_Drag%C3%A3o"
+      },
+      {
+        "texto": "O território é cortado pelos rios Cochá, Carinhanha e Itaguari, todos pertencentes à bacia do São Francisco: o Cochá, afluente da margem direita do Carinhanha, atravessa o perímetro urbano com águas serenas usadas para banho e pesca esportiva, e suas margens, sombreadas por buritis, sediam eventos culturais e festivais tradicionais da cidade.",
+        "fonte": "https://www.minasgerais.com.br/pt/atracoes/montalvania/rio-cocha"
+      },
+      {
+        "texto": "Antônio Montalvão foi também arqueólogo amador pioneiro, descobrindo e divulgando sítios de arte rupestre no Norte de Minas e atuando como prefeito de Manga (1959-1962) e da própria Montalvânia (1973-1976); místico e visionário, defendia a hipótese de que as inscrições rupestres da região seriam uma 'Bíblia de Pedra da Humanidade' e associava a paisagem do cerrado a remanescentes da lendária Atlântida.",
+        "fonte": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Montalv%C3%A3o"
+      },
+      {
+        "texto": "O padroeiro do município é Cristo Rei, celebrado no último domingo do Ano Litúrgico, e a Praça Cristo Rei figura entre os pontos centrais do traçado de Antônio Montalvão; entre as devoções populares destaca-se a Capela de Nossa Senhora do Perpétuo Socorro, erguida dentro de uma gruta na comunidade de Canoas, ponto de visitação e peregrinação religiosa.",
+        "fonte": "https://www.montalvania.mg.gov.br/otrabalhocontinua/index.php/blog/conhe%C3%A7a-mais-montalv%C3%A2nia.html"
+      },
+      {
+        "texto": "O clima é semiárido (tipo BSh de Köppen-Geiger), com extremos térmicos marcantes para o estado: a estação local registrou mínima de 5,8 °C em maio de 2022 e máxima de 42,4 °C em setembro de 2021, e a maior precipitação em 24 horas chegou a 163,6 mm; o relevo culmina a 806 metros na Serra dos Tropeiros e Belo Horizonte fica a cerca de 782 km da sede municipal.",
+        "fonte": "https://pt.wikipedia.org/wiki/Montalv%C3%A2nia"
+      }
+    ]
   }
 }
